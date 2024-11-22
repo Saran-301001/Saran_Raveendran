@@ -1,0 +1,59 @@
+@using System.Data;
+@model DataTable;
+
+
+
+
+@{
+  ViewData["Title"] = "Admin-Panel";
+  Layout = "../Shared/HomeLayout";
+}
+
+<head>
+  <link rel="stylesheet" href="~/Dashboard.cshtml.css" asp-append-version="true" />
+</head>
+
+<body style="background: rgb(153,16,180);
+background: linear-gradient(320deg, rgba(153,16,180,1) 0%, rgba(226,226,226,1) 0%, rgba(247,155,239,1) 100%);">
+  <div class="btn">
+    <a href="CreateAccount" class="btn btn-primary" id="createaccount"
+      style="background-color: rgb(3, 173, 3);font-family:'Poppins';"><b>+</b> Create Account</a>
+  </div>
+  <br>
+  <br>
+  <br>
+  <h1>User's Detail:</h1>
+  <table class="table table-hover" id="table" style="padding-top: 200px;">
+    <thead>
+      <tr>
+        <th scope="col">UserName</th>
+        <th scope="col">Email</th>
+        <th scope="col">EmployeeID</th>
+        <th scope="col">Employee Role</th>
+        <th scope="col"></th>
+        <th scope="col"></th>
+
+      </tr>
+    </thead>
+    <tbody>
+
+      @foreach (DataRow item in Model.Rows)
+      {
+        <ol>
+          <tr>
+            <td>@item[0]</td>
+            <td>@item[1]</td>
+            <td>@item[2]</td>
+            <td>@item[3]</td>
+            <td><a asp-action="Viewprofile" asp-controller="Admin" asp-route-id="@item[1]"><button
+                  class="button">Edit</button></a></td>
+            @* <td><button class="Deletebutton">Delete</button></td> *@
+            <td><a asp-action="DeleteEmployee" asp-controller="Admin" asp-route-id="@item[1]"><button
+                  class="Deletebutton">Delete</button></a></td>
+          </tr>
+        </ol>
+      }
+
+    </tbody>
+  </table>
+</body>

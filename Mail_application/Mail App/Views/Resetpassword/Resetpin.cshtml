@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+@model APP.Models.UserInput
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/Resetpin.cshtml.css" asp-append-version="true" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+
+<style>
+
+     .inputs {
+        text-align: left;
+        margin-top: 30px;
+    }
+
+    label,
+    input,
+    button {
+        display: block;
+        width: 100%;
+        padding: 0;
+        border: none;
+        outline: none;
+        box-sizing: border-box;
+    }
+
+    label {
+        margin-bottom: 4px;
+    }
+
+    label:nth-of-type(2) {
+        margin-top: 12px;
+    }
+
+    input::placeholder {
+        color: gray;
+    }
+
+    input {
+        background: #ecf0f3;
+        padding: 10px;
+        padding-left: 20px;
+        height: 50px;
+        font-size: 14px;
+        border-radius: 50px;
+        box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+    }
+    .validation {
+        justify-content: left;
+        margin-left: 330px;
+        width: 300px;
+        margin-top: -300px;
+    }
+</style>
+
+<body>
+
+     @if (ViewBag.pass != null)
+    {
+        <div class="alert alert-success" role="alert">
+            <b>@ViewBag.pass</b>
+        </div>
+    }
+
+    
+    <form method="post" asp-action="Resetpin">
+        <div class="container">
+            <div class="brand-logo">
+                <img class="logo" src="../../img/health.png" class="bg-img" alt="background">
+            </div>
+            <div class="brand-title">Reset password?</div>
+            <br>
+            <label>Password</label>
+
+            <input type="password" class="form-control" asp-for="Password" placeholder="Type your password" aria-label="password"
+                aria-describedby="password" id="password-input" />
+
+            </span>
+
+            <div class="valid-feedback">Good</div>
+            <div class="invalid-feedback">Wrong</div>
+
+            <div class="row">
+                <div class="col-6">
+                    <div class="input-group d-flex">
+                    </div>
+                </div>
+                <div class="inputs">
+                    <label>Confirm Password</label>
+
+                    <input type="password" asp-for="Confirmpassword" class="form-control " placeholder="Type your password" aria-label="password"
+                        aria-describedby="password" id="password-input" />
+
+                    </span>
+
+                    <div class="valid-feedback">Good</div>
+                    <div class="invalid-feedback">Wrong</div>
+
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="input-group d-flex">
+
+
+                            </div>
+                        </div>
+
+
+
+                    <input type="email" asp-for="Email" class="form-control " placeholder="Type your password" aria-label="password"
+                        aria-describedby="password" id="password-input" value=@ViewBag.Mail hidden />
+
+                    </span>
+
+                        <button type="submit">LOGIN</button>
+                    </div>
+
+                </div>
+    </form>
+
+
+    <div class="validation">
+        <div class="col-6 mt-4 mt-xxl-0 w-auto h-auto">
+
+            <div class="alert px-4 py-3 mb-0 d-none" role="alert" data-mdb-color="warning" id="password-alert">
+                <ul class="list-unstyled mb-0">
+                    <li class="requirements leng">
+                        <i class="fas fa-check text-success me-2"></i>
+                        <i class="fas fa-times text-danger me-3"></i>
+                        Your password must have at least 8 chars
+                    </li>
+                    <li class="requirements big-letter">
+                        <i class="fas fa-check text-success me-2"></i>
+                        <i class="fas fa-times text-danger me-3"></i>
+                        Your password must have at least 1 big letter.
+                    </li>
+                    <li class="requirements num">
+                        <i class="fas fa-check text-success me-2"></i>
+                        <i class="fas fa-times text-danger me-3"></i>
+                        Your password must have at least 1 number.
+                    </li>
+                    <li class="requirements special-char">
+                        <i class="fas fa-check text-success me-2"></i>
+                        <i class="fas fa-times text-danger me-3"></i>
+                        Your password must have at least 1 special char.
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+
+    <script>
+        addEventListener("DOMContentLoaded", (event) => {
+            const password = document.getElementById("password-input");
+            const passwordAlert = document.getElementById("password-alert");
+            const requirements = document.querySelectorAll(".requirements");
+            let lengBoolean, bigLetterBoolean, numBoolean, specialCharBoolean;
+            let leng = document.querySelector(".leng");
+            let bigLetter = document.querySelector(".big-letter");
+            let num = document.querySelector(".num");
+            let specialChar = document.querySelector(".special-char");
+            const specialChars = "!#$%^&*()-_=+[{]}@@\\|;:'\",<.>/?`~";
+            const numbers = "0123456789";
+
+            requirements.forEach((element) => element.classList.add("wrong"));
+
+            password.addEventListener("focus", () => {
+                passwordAlert.classList.remove("d-none");
+                if (!password.classList.contains("is-valid")) {
+                    password.classList.add("is-invalid");
+                }
+            });
+
+            password.addEventListener("input", () => {
+                let value = password.value;
+                if (value.length < 8) {
+                    lengBoolean = false;
+                } else if (value.length > 7) {
+                    lengBoolean = true;
+                }
+
+                if (value.toLowerCase() == value) {
+                    bigLetterBoolean = false;
+                } else {
+                    bigLetterBoolean = true;
+                }
+
+                numBoolean = false;
+                for (let i = 0; i < value.length; i++) {
+                    for (let j = 0; j < numbers.length; j++) {
+                        if (value[i] == numbers[j]) {
+                            numBoolean = true;
+                        }
+                    }
+                }
+
+                specialCharBoolean = false;
+                for (let i = 0; i < value.length; i++) {
+                    for (let j = 0; j < specialChars.length; j++) {
+                        if (value[i] == specialChars[j]) {
+                            specialCharBoolean = true;
+                        }
+                    }
+                }
+
+                if (lengBoolean == true && bigLetterBoolean == true && numBoolean == true && specialCharBoolean == true) {
+                    password.classList.remove("is-invalid");
+                    password.classList.add("is-valid");
+
+                    requirements.forEach((element) => {
+                        element.classList.remove("wrong");
+                        element.classList.add("good");
+                    });
+                    passwordAlert.classList.remove("alert-warning");
+                    passwordAlert.classList.add("alert-success");
+                } else {
+                    password.classList.remove("is-valid");
+                    password.classList.add("is-invalid");
+
+                    passwordAlert.classList.add("alert-warning");
+                    passwordAlert.classList.remove("alert-success");
+
+                    if (lengBoolean == false) {
+                        leng.classList.add("wrong");
+                        leng.classList.remove("good");
+                    } else {
+                        leng.classList.add("good");
+                        leng.classList.remove("wrong");
+                    }
+
+                    if (bigLetterBoolean == false) {
+                        bigLetter.classList.add("wrong");
+                        bigLetter.classList.remove("good");
+                    } else {
+                        bigLetter.classList.add("good");
+                        bigLetter.classList.remove("wrong");
+                    }
+
+                    if (numBoolean == false) {
+                        num.classList.add("wrong");
+                        num.classList.remove("good");
+                    } else {
+                        num.classList.add("good");
+                        num.classList.remove("wrong");
+                    }
+
+                    if (specialCharBoolean == false) {
+                        specialChar.classList.add("wrong");
+                        specialChar.classList.remove("good");
+                    } else {
+                        specialChar.classList.add("good");
+                        specialChar.classList.remove("wrong");
+                    }
+                }
+            });
+
+            password.addEventListener("blur", () => {
+                passwordAlert.classList.add("d-none");
+            });
+        });
+    </script>
+
+</body>
+
+
+

@@ -1,0 +1,122 @@
+.Header{
+    font-family: 'Poppins';
+    padding-top: 60px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+#username{
+    position: absolute;
+    width: 539px;
+    height: 52px;
+    background: #f180d7;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    border-radius: 10px;
+    top: 240px;
+}
+
+#email{
+    position: absolute;
+    width: 539px;
+    height: 52px;
+    background: #f180d7;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    border-radius: 10px;
+    top: 340px;
+}
+
+#password{
+    position: absolute;
+    width: 539px;
+    height: 52px;
+    background: #f180d7;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    border-radius: 10px;
+    top: 440px;
+}
+
+#ID{
+    position: absolute;
+    width: 539px;
+    height: 52px;
+    background: #f180d7;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    border-radius: 10px;
+    top: 540px;
+}
+
+#button{
+    position: absolute;
+    width: 146px;
+    height: 41px;
+    top: 610px;
+    left: 300px;
+
+    background: #d100d6;
+    border-radius: 14px;
+}
+
+#uname{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    padding-left: 10px;
+    padding-top: 30px;
+}
+
+#pwd{ 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    padding-top: 45px;
+    padding-left: 10px;
+}
+
+#mail{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    padding-top: 47px;
+    padding-left: 10px;
+}
+
+#id{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    padding-top: 47px;
+    padding-left: 10px;
+}
+
+.mail1{
+    position: absolute;
+    width: 600px;
+    height: 463.07px;
+    left: 700px;
+    top: 150px;
+
+    filter: drop-shadow(11px 6px 9px rgba(0,0,0,0.25));
+
+}
+
+
+button{
+    font-family: 'Poppins';
+}
+
+.mail1{
+    width: 600px;
+    height: 450px;
+}
+
+

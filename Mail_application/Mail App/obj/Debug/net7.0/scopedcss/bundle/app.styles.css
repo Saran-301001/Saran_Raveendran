@@ -1,0 +1,3000 @@
+/* _content/app/Views/Admin/AdminUpdate.cshtml.rz.scp.css */
+body[b-s24yju0rih] {
+    background: rgb(99, 39, 120)
+}
+
+.form-control:focus[b-s24yju0rih] {
+    box-shadow: none;
+    border-color: #BA68C8
+}
+
+.profile-button[b-s24yju0rih] {
+    background: rgb(99, 39, 120);
+    box-shadow: none;
+    border: none
+}
+
+.profile-button:hover[b-s24yju0rih] {
+    background: #682773
+}
+
+.profile-button:focus[b-s24yju0rih] {
+    background: #682773;
+    box-shadow: none
+}
+
+.profile-button:active[b-s24yju0rih] {
+    background: #682773;
+    box-shadow: none
+}
+
+.back:hover[b-s24yju0rih] {
+    color: #682773;
+    cursor: pointer
+}
+
+.labels[b-s24yju0rih] {
+    font-size: 11px
+}
+
+.add-experience:hover[b-s24yju0rih] {
+    background: #BA68C8;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #BA68C8
+}
+
+.profile-pic[b-s24yju0rih] {
+    color: transparent;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: all 0.3s ease;
+}
+.profile-pic input[b-s24yju0rih] {
+    display: none;
+}
+.profile-pic img[b-s24yju0rih] {
+    position: absolute;
+    object-fit: cover;
+    width: 165px;
+    height: 165px;
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.35);
+    border-radius: 100px;
+    z-index: 0;
+}
+.profile-pic .-label[b-s24yju0rih] {
+    cursor: pointer;
+    height: 165px;
+    width: 165px;
+}
+.profile-pic:hover .-label[b-s24yju0rih] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 10000;
+    color: #fafafa;
+    transition: background-color 0.2s ease-in-out;
+    border-radius: 100px;
+    margin-bottom: 0;
+}
+.profile-pic span[b-s24yju0rih] {
+    display: inline-flex;
+    padding: 0.2em;
+    height: 2em;
+}
+body[b-s24yju0rih] {
+    height: 100vh;
+    background-color: #191815;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body a:hover[b-s24yju0rih] {
+    text-decoration: none;
+}
+
+.profile-pic[b-s24yju0rih]{
+    top: 100px;
+}
+
+.form-control[b-s24yju0rih]{
+    background-color: #eeabfa;
+    color: #000000;
+}
+
+.labels[b-s24yju0rih]{
+    color: #000000;
+    
+}
+
+[b-s24yju0rih]::placeholder{
+    color: #3d3d3d;
+}
+
+
+#EmpId[b-s24yju0rih]{
+    background-color: #3d3d3d;
+}
+
+.reset_password[b-s24yju0rih]{
+    font-size: 14px;
+    width: 400px;
+    color: red;
+}
+/* _content/app/Views/Admin/CreateAccount.cshtml.rz.scp.css */
+body[b-3995z0rg74] {
+    background: rgb(99, 39, 120)
+}
+
+.form-control:focus[b-3995z0rg74] {
+    box-shadow: none;
+    border-color: #BA68C8
+}
+
+.profile-button[b-3995z0rg74] {
+    background: rgb(99, 39, 120);
+    box-shadow: none;
+    border: none
+}
+
+.profile-button:hover[b-3995z0rg74] {
+    background: #682773
+}
+
+.profile-button:focus[b-3995z0rg74] {
+    background: #682773;
+    box-shadow: none
+}
+
+.profile-button:active[b-3995z0rg74] {
+    background: #682773;
+    box-shadow: none
+}
+
+.back:hover[b-3995z0rg74] {
+    color: #682773;
+    cursor: pointer
+}
+
+.labels[b-3995z0rg74] {
+    font-size: 11px
+}
+
+.add-experience:hover[b-3995z0rg74] {
+    background: #BA68C8;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #BA68C8
+}
+
+.profile-pic[b-3995z0rg74] {
+    color: transparent;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: all 0.3s ease;
+}
+.profile-pic input[b-3995z0rg74] {
+    display: none;
+}
+.profile-pic img[b-3995z0rg74] {
+    position: absolute;
+    object-fit: cover;
+    width: 165px;
+    height: 165px;
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.35);
+    border-radius: 100px;
+    z-index: 0;
+}
+.profile-pic .-label[b-3995z0rg74] {
+    cursor: pointer;
+    height: 165px;
+    width: 165px;
+}
+.profile-pic:hover .-label[b-3995z0rg74] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 10000;
+    color: #fafafa;
+    transition: background-color 0.2s ease-in-out;
+    border-radius: 100px;
+    margin-bottom: 0;
+}
+.profile-pic span[b-3995z0rg74] {
+    display: inline-flex;
+    padding: 0.2em;
+    height: 2em;
+}
+body[b-3995z0rg74] {
+    height: 100vh;
+    background-color: #191815;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body a:hover[b-3995z0rg74] {
+    text-decoration: none;
+}
+
+.profile-pic[b-3995z0rg74]{
+    top: 100px;
+}
+
+.form-control[b-3995z0rg74]{
+    background-color: #eeabfa;
+    color: #000000;
+}
+
+.labels[b-3995z0rg74]{
+    color: #000000;
+    
+}
+
+[b-3995z0rg74]::placeholder{
+    color: #3d3d3d;
+}
+/* _content/app/Views/Admin/Dashboard.cshtml.rz.scp.css */
+body[b-t6030tbtvv]{
+    background: rgb(153,16,180);
+    background: linear-gradient(320deg, rgba(153,16,180,1) 0%, rgba(226,226,226,1) 0%, rgba(247,155,239,1) 100%);background-repeat: no-repeat;
+}
+
+
+.button[b-t6030tbtvv]{
+    background-color: rgb(159, 73, 240);
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    border-color:rgb(159, 73, 240);
+    font-family: 'Poppins';
+}
+
+.Deletebutton[b-t6030tbtvv]{
+    background-color: rgb(247, 70, 70);
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    border-color:rgb(245, 54, 54);
+    font-family: 'Poppins';
+}
+
+h1[b-t6030tbtvv]{
+    font-family: 'Poppins';
+}
+
+.btn[b-t6030tbtvv]{
+    position: absolute;
+    width: 180px;
+    left: 70%;
+    top: 23%;
+    /* padding-left: 50%;
+    width: 10px;
+    text-align: center;
+    padding-top: 20%; */
+}
+/* _content/app/Views/Admin/DeleteEmployee.cshtml.rz.scp.css */
+body[b-vflnghhwww] {
+    background: rgb(99, 39, 120)
+}
+
+.form-control:focus[b-vflnghhwww] {
+    box-shadow: none;
+    border-color: #BA68C8
+}
+
+.profile-button[b-vflnghhwww] {
+    background: rgb(99, 39, 120);
+    box-shadow: none;
+    border: none
+}
+
+.profile-button:hover[b-vflnghhwww] {
+    background: #682773
+}
+
+.profile-button:focus[b-vflnghhwww] {
+    background: #682773;
+    box-shadow: none
+}
+
+.profile-button:active[b-vflnghhwww] {
+    background: #682773;
+    box-shadow: none
+}
+
+.back:hover[b-vflnghhwww] {
+    color: #682773;
+    cursor: pointer
+}
+
+.labels[b-vflnghhwww] {
+    font-size: 11px
+}
+
+.add-experience:hover[b-vflnghhwww] {
+    background: #BA68C8;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #BA68C8
+}
+
+.profile-pic[b-vflnghhwww] {
+    color: transparent;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: all 0.3s ease;
+}
+.profile-pic input[b-vflnghhwww] {
+    display: none;
+}
+.profile-pic img[b-vflnghhwww] {
+    position: absolute;
+    object-fit: cover;
+    width: 165px;
+    height: 165px;
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.35);
+    border-radius: 100px;
+    z-index: 0;
+}
+.profile-pic .-label[b-vflnghhwww] {
+    cursor: pointer;
+    height: 165px;
+    width: 165px;
+}
+.profile-pic:hover .-label[b-vflnghhwww] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 10000;
+    color: #fafafa;
+    transition: background-color 0.2s ease-in-out;
+    border-radius: 100px;
+    margin-bottom: 0;
+}
+.profile-pic span[b-vflnghhwww] {
+    display: inline-flex;
+    padding: 0.2em;
+    height: 2em;
+}
+body[b-vflnghhwww] {
+    height: 100vh;
+    background-color: #191815;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body a:hover[b-vflnghhwww] {
+    text-decoration: none;
+}
+
+.profile-pic[b-vflnghhwww]{
+    top: 100px;
+}
+
+.form-control[b-vflnghhwww]{
+    background-color: #eeabfa;
+    color: #000000;
+}
+
+.labels[b-vflnghhwww]{
+    color: #000000;
+    
+}
+
+[b-vflnghhwww]::placeholder{
+    color: #3d3d3d;
+}   
+
+
+/* popup */
+
+.card[b-vflnghhwww] {
+    overflow: hidden;
+    position: relative;
+    background-color: #ffffff;
+    text-align: left;
+    border-radius: 0.5rem;
+    max-width: 290px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  }
+  
+  .header[b-vflnghhwww] {
+    padding: 1.25rem 1rem 1rem 1rem;
+    background-color: #ffffff;
+  }
+  
+  .image[b-vflnghhwww] {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FEE2E2;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 9999px;
+  }
+  
+  .image svg[b-vflnghhwww] {
+    color: #DC2626;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+  .content[b-vflnghhwww] {
+    margin-top: 0.75rem;
+    text-align: center;
+  }
+  
+  .title[b-vflnghhwww] {
+    color: #111827;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+  }
+  
+  .message[b-vflnghhwww] {
+    margin-top: 0.5rem;
+    color: #6B7280;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+  
+  .actions[b-vflnghhwww] {
+    margin: 0.75rem 1rem;
+    background-color: #F9FAFB;
+  }
+  
+  .desactivate[b-vflnghhwww] {
+    display: inline-flex;
+    padding: 0.5rem 1rem;
+    background-color: #DC2626;
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    justify-content: center;
+    width: 100%;
+    border-radius: 0.375rem;
+    border-width: 1px;
+    border-color: transparent;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  }
+  
+  .cancel[b-vflnghhwww] {
+    display: inline-flex;
+    margin-top: 0.75rem;
+    padding: 0.5rem 1rem;
+    background-color: #ffffff;
+    color: #374151;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    justify-content: center;
+    width: 100%;
+    border-radius: 0.375rem;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  }
+/* _content/app/Views/Admin/Forgotpassword.cshtml.rz.scp.css */
+body[b-jmbom5n7g9] {
+    background: rgb(99, 39, 120)
+}
+
+.form-control:focus[b-jmbom5n7g9] {
+    box-shadow: none;
+    border-color: #BA68C8
+}
+
+.profile-button[b-jmbom5n7g9] {
+    background: rgb(99, 39, 120);
+    box-shadow: none;
+    border: none
+}
+
+.profile-button:hover[b-jmbom5n7g9] {
+    background: #682773
+}
+
+.profile-button:focus[b-jmbom5n7g9] {
+    background: #682773;
+    box-shadow: none
+}
+
+.profile-button:active[b-jmbom5n7g9] {
+    background: #682773;
+    box-shadow: none
+}
+
+.back:hover[b-jmbom5n7g9] {
+    color: #682773;
+    cursor: pointer
+}
+
+.labels[b-jmbom5n7g9] {
+    font-size: 11px
+}
+
+.add-experience:hover[b-jmbom5n7g9] {
+    background: #BA68C8;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #BA68C8
+}
+
+.profile-pic[b-jmbom5n7g9] {
+    color: transparent;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: all 0.3s ease;
+}
+.profile-pic input[b-jmbom5n7g9] {
+    display: none;
+}
+.profile-pic img[b-jmbom5n7g9] {
+    position: absolute;
+    object-fit: cover;
+    width: 165px;
+    height: 165px;
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.35);
+    border-radius: 100px;
+    z-index: 0;
+}
+.profile-pic .-label[b-jmbom5n7g9] {
+    cursor: pointer;
+    height: 165px;
+    width: 165px;
+}
+.profile-pic:hover .-label[b-jmbom5n7g9] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 10000;
+    color: #fafafa;
+    transition: background-color 0.2s ease-in-out;
+    border-radius: 100px;
+    margin-bottom: 0;
+}
+.profile-pic span[b-jmbom5n7g9] {
+    display: inline-flex;
+    padding: 0.2em;
+    height: 2em;
+}
+body[b-jmbom5n7g9] {
+    height: 100vh;
+    background-color: #191815;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body a:hover[b-jmbom5n7g9] {
+    text-decoration: none;
+}
+
+.profile-pic[b-jmbom5n7g9]{
+    top: 100px;
+}
+
+.form-control[b-jmbom5n7g9]{
+    background-color: #eeabfa;
+    color: #000000;
+}
+
+.labels[b-jmbom5n7g9]{
+    color: #000000;
+    
+}
+
+[b-jmbom5n7g9]::placeholder{
+    color: #3d3d3d;
+}   
+
+
+/* popup */
+
+.card[b-jmbom5n7g9] {
+    overflow: hidden;
+    position: relative;
+    background-color: #ffffff;
+    text-align: left;
+    border-radius: 0.5rem;
+    max-width: 290px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  }
+  
+  .header[b-jmbom5n7g9] {
+    padding: 1.25rem 1rem 1rem 1rem;
+    background-color: #ffffff;
+  }
+  
+  .image[b-jmbom5n7g9] {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FEE2E2;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 9999px;
+  }
+  
+  .image svg[b-jmbom5n7g9] {
+    color: #DC2626;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+  .content[b-jmbom5n7g9] {
+    margin-top: 0.75rem;
+    text-align: center;
+  }
+  
+  .title[b-jmbom5n7g9] {
+    color: #111827;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+  }
+  
+  .message[b-jmbom5n7g9] {
+    margin-top: 0.5rem;
+    color: #6B7280;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+  
+  .actions[b-jmbom5n7g9] {
+    margin: 0.75rem 1rem;
+    background-color: #F9FAFB;
+  }
+  
+  .desactivate[b-jmbom5n7g9] {
+    display: inline-flex;
+    padding: 0.5rem 1rem;
+    background-color: #DC2626;
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    justify-content: center;
+    width: 100%;
+    border-radius: 0.375rem;
+    border-width: 1px;
+    border-color: transparent;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  }
+  
+  .cancel[b-jmbom5n7g9] {
+    display: inline-flex;
+    margin-top: 0.75rem;
+    padding: 0.5rem 1rem;
+    background-color: #ffffff;
+    color: #374151;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    justify-content: center;
+    width: 100%;
+    border-radius: 0.375rem;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  }
+/* _content/app/Views/Admin/Index.cshtml.rz.scp.css */
+
+
+
+#button[b-pvyy1osm3p]{
+    position: absolute;
+    bottom: 60px;
+    right: 80px;
+    width: 200px;
+    height: 60px;
+    background-color: #ec23f0;
+    border-radius: 8px;
+    border-color: #ec23f0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    color: black;
+    line-height: 30px;
+}
+
+
+#pen[b-pvyy1osm3p]{
+    width: 25px;
+    height: 25px;
+}
+/* _content/app/Views/Admin/Login.cshtml.rz.scp.css */
+.header[b-w1ehrfwclk]{
+    font-family:'Gloock', serif;
+    position:absolute;
+    width: 450px;
+    height: 54px;
+    left: 96px;
+    top: 200px;
+
+
+}
+body[b-w1ehrfwclk]{
+    background-image: url(../../img/bg.png);
+}
+
+#username[b-w1ehrfwclk]{
+    position: absolute;
+    width: 301px;
+    height: 52px;
+    left: 150px;
+    top: 310px;
+
+    background-color: rgba(209,0,214,0.27);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+}
+
+#userinput[b-w1ehrfwclk]{
+    position:absolute;
+    width: 176px;
+    height: 30px;
+    left: 159px;
+    top: 280px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4d4c4c;
+}
+
+#password[b-w1ehrfwclk]{
+    position:absolute;
+    width: 176px;
+    height: 30px;
+    left: 159px;
+    top: 380px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4d4c4c;
+}
+#exampleInputPassword1[b-w1ehrfwclk]{
+    position: absolute;
+    width: 301px;
+    height: 52px;
+    left: 150px;
+    top: 410px;
+    background-color: rgba(209,0,214,0.27);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+}
+
+#button[b-w1ehrfwclk]{
+    position: absolute;
+    width: 128px;
+    height: 38px;
+    left: 220px;
+    top: 526px;
+
+    background-color: #d100d6;
+    border-radius: 14px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.createAccount[b-w1ehrfwclk]{
+    position: absolute;
+    width: 150px;
+    height: 20px;
+    left: 315px;
+    top: 466px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.Forgotpassword[b-w1ehrfwclk]{
+    position: absolute;
+    width: 120px;
+    height: 20px;
+    left: 156px;
+    top: 466px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    color: #000000;
+}
+
+#admin[b-w1ehrfwclk]{
+    position: absolute;
+    width: 230px;
+    height: 38px;
+    left: 175px;
+    top: 580px;
+
+    background: #d100d6;
+    border-radius: 14px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+/* _content/app/Views/Admin/Viewprofile.cshtml.rz.scp.css */
+body[b-mgqc6rohym] {
+    background: rgb(99, 39, 120)
+}
+
+.form-control:focus[b-mgqc6rohym] {
+    box-shadow: none;
+    border-color: #BA68C8
+}
+
+.profile-button[b-mgqc6rohym] {
+    background: rgb(99, 39, 120);
+    box-shadow: none;
+    border: none
+}
+
+.profile-button:hover[b-mgqc6rohym] {
+    background: #682773
+}
+
+.profile-button:focus[b-mgqc6rohym] {
+    background: #682773;
+    box-shadow: none
+}
+
+.profile-button:active[b-mgqc6rohym] {
+    background: #682773;
+    box-shadow: none
+}
+
+.back:hover[b-mgqc6rohym] {
+    color: #682773;
+    cursor: pointer
+}
+
+.labels[b-mgqc6rohym] {
+    font-size: 11px
+}
+
+.add-experience:hover[b-mgqc6rohym] {
+    background: #BA68C8;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #BA68C8
+}
+
+.profile-pic[b-mgqc6rohym] {
+    color: transparent;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: all 0.3s ease;
+}
+.profile-pic input[b-mgqc6rohym] {
+    display: none;
+}
+.profile-pic img[b-mgqc6rohym] {
+    position: absolute;
+    object-fit: cover;
+    width: 165px;
+    height: 165px;
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.35);
+    border-radius: 100px;
+    z-index: 0;
+}
+.profile-pic .-label[b-mgqc6rohym] {
+    cursor: pointer;
+    height: 165px;
+    width: 165px;
+}
+.profile-pic:hover .-label[b-mgqc6rohym] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 10000;
+    color: #fafafa;
+    transition: background-color 0.2s ease-in-out;
+    border-radius: 100px;
+    margin-bottom: 0;
+}
+.profile-pic span[b-mgqc6rohym] {
+    display: inline-flex;
+    padding: 0.2em;
+    height: 2em;
+}
+body[b-mgqc6rohym] {
+    height: 100vh;
+    background-color: #191815;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body a:hover[b-mgqc6rohym] {
+    text-decoration: none;
+}
+
+.profile-pic[b-mgqc6rohym]{
+    top: 100px;
+}
+
+.form-control[b-mgqc6rohym]{
+    background-color: #eeabfa;
+    color: #000000;
+}
+
+.labels[b-mgqc6rohym]{
+    color: #000000;
+    
+}
+
+[b-mgqc6rohym]::placeholder{
+    color: #3d3d3d;
+}   
+
+
+/* popup */
+
+.card[b-mgqc6rohym] {
+    overflow: hidden;
+    position: relative;
+    background-color: #ffffff;
+    text-align: left;
+    border-radius: 0.5rem;
+    max-width: 290px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  }
+  
+  .header[b-mgqc6rohym] {
+    padding: 1.25rem 1rem 1rem 1rem;
+    background-color: #ffffff;
+  }
+  
+  .image[b-mgqc6rohym] {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FEE2E2;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 9999px;
+  }
+  
+  .image svg[b-mgqc6rohym] {
+    color: #DC2626;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+  .content[b-mgqc6rohym] {
+    margin-top: 0.75rem;
+    text-align: center;
+  }
+  
+  .title[b-mgqc6rohym] {
+    color: #111827;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+  }
+  
+  .message[b-mgqc6rohym] {
+    margin-top: 0.5rem;
+    color: #6B7280;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+  
+  .actions[b-mgqc6rohym] {
+    margin: 0.75rem 1rem;
+    background-color: #F9FAFB;
+  }
+  
+  .desactivate[b-mgqc6rohym] {
+    display: inline-flex;
+    padding: 0.5rem 1rem;
+    background-color: #DC2626;
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    justify-content: center;
+    width: 100%;
+    border-radius: 0.375rem;
+    border-width: 1px;
+    border-color: transparent;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  }
+  
+  .cancel[b-mgqc6rohym] {
+    display: inline-flex;
+    margin-top: 0.75rem;
+    padding: 0.5rem 1rem;
+    background-color: #ffffff;
+    color: #374151;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    justify-content: center;
+    width: 100%;
+    border-radius: 0.375rem;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  }
+
+  .Deletebutton[b-mgqc6rohym]{
+    /* padding-left: 200px; */
+    margin-left: -45px;
+  }
+/* _content/app/Views/Chat/Chat.cshtml.rz.scp.css */
+/* _content/app/Views/Chat/Index.cshtml.rz.scp.css */
+body[b-bgu2oce07k]{
+    background: rgb(153,16,180);
+    background: linear-gradient(320deg, rgba(153,16,180,1) 0%, rgba(226,226,226,1) 0%, rgba(247,155,239,1) 100%);background-repeat: no-repeat;
+}
+
+
+.button[b-bgu2oce07k]{
+    background-color: rgb(159, 73, 240);
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    border-color:rgb(159, 73, 240);
+    font-family: 'Poppins';
+}
+
+.Deletebutton[b-bgu2oce07k]{
+    background-color: rgb(97, 236, 143);
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    border-color:rgb(97, 236, 143);
+    font-family: 'Poppins';
+}
+
+h1[b-bgu2oce07k]{
+    font-family: 'Poppins';
+}
+
+.btn[b-bgu2oce07k]{
+    position: absolute;
+    width: 180px;
+    left: 70%;
+    top: 23%;
+    /* padding-left: 50%;
+    width: 10px;
+    text-align: center;
+    padding-top: 20%; */
+}
+/* _content/app/Views/Employee/EmployeeUpdate.cshtml.rz.scp.css */
+body[b-kfgi0xqgkm] {
+    background: rgb(99, 39, 120)
+}
+
+.form-control:focus[b-kfgi0xqgkm] {
+    box-shadow: none;
+    border-color: #BA68C8
+}
+
+.profile-button[b-kfgi0xqgkm] {
+    background: rgb(99, 39, 120);
+    box-shadow: none;
+    border: none
+}
+
+.profile-button:hover[b-kfgi0xqgkm] {
+    background: #682773
+}
+
+.profile-button:focus[b-kfgi0xqgkm] {
+    background: #682773;
+    box-shadow: none
+}
+
+.profile-button:active[b-kfgi0xqgkm] {
+    background: #682773;
+    box-shadow: none
+}
+
+.back:hover[b-kfgi0xqgkm] {
+    color: #682773;
+    cursor: pointer
+}
+
+.labels[b-kfgi0xqgkm] {
+    font-size: 11px
+}
+
+.add-experience:hover[b-kfgi0xqgkm] {
+    background: #BA68C8;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #BA68C8
+}
+
+.profile-pic[b-kfgi0xqgkm] {
+    color: transparent;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: all 0.3s ease;
+}
+.profile-pic input[b-kfgi0xqgkm] {
+    display: none;
+}
+.profile-pic img[b-kfgi0xqgkm] {
+    position: absolute;
+    object-fit: cover;
+    width: 165px;
+    height: 165px;
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.35);
+    border-radius: 100px;
+    z-index: 0;
+}
+.profile-pic .-label[b-kfgi0xqgkm] {
+    cursor: pointer;
+    height: 165px;
+    width: 165px;
+}
+.profile-pic:hover .-label[b-kfgi0xqgkm] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 10000;
+    color: #fafafa;
+    transition: background-color 0.2s ease-in-out;
+    border-radius: 100px;
+    margin-bottom: 0;
+}
+.profile-pic span[b-kfgi0xqgkm] {
+    display: inline-flex;
+    padding: 0.2em;
+    height: 2em;
+}
+body[b-kfgi0xqgkm] {
+    height: 100vh;
+    background-color: #191815;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body a:hover[b-kfgi0xqgkm] {
+    text-decoration: none;
+}
+
+.profile-pic[b-kfgi0xqgkm]{
+    top: 100px;
+}
+
+.form-control[b-kfgi0xqgkm]{
+    background-color: #eeabfa;
+    color: #000000;
+}
+
+.labels[b-kfgi0xqgkm]{
+    color: #000000;
+    
+}
+
+[b-kfgi0xqgkm]::placeholder{
+    color: #3d3d3d;
+}
+
+
+#EmpId[b-kfgi0xqgkm]{
+    background-color: #3d3d3d;
+}
+
+.reset_password[b-kfgi0xqgkm]{
+    font-size: 14px;
+    width: 400px;
+    color: red;
+}
+/* _content/app/Views/Employee/Index.cshtml.rz.scp.css */
+
+
+
+#button[b-3r0v2a90jb]{
+    position: absolute;
+    bottom: 60px;
+    right: 80px;
+    width: 200px;
+    height: 60px;
+    background-color: #ec23f0;
+    border-radius: 8px;
+    border-color: #ec23f0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    color: black;
+    line-height: 30px;
+}
+
+
+#pen[b-3r0v2a90jb]{
+    width: 25px;
+    height: 25px;
+}
+/* _content/app/Views/Employee/Viewprofile.cshtml.rz.scp.css */
+body[b-qtskbi4gqv] {
+    background: rgb(99, 39, 120)
+}
+
+.form-control:focus[b-qtskbi4gqv] {
+    box-shadow: none;
+    border-color: #BA68C8
+}
+
+.profile-button[b-qtskbi4gqv] {
+    background: rgb(99, 39, 120);
+    box-shadow: none;
+    border: none
+}
+
+.profile-button:hover[b-qtskbi4gqv] {
+    background: #682773
+}
+
+.profile-button:focus[b-qtskbi4gqv] {
+    background: #682773;
+    box-shadow: none
+}
+
+.profile-button:active[b-qtskbi4gqv] {
+    background: #682773;
+    box-shadow: none
+}
+
+.back:hover[b-qtskbi4gqv] {
+    color: #682773;
+    cursor: pointer
+}
+
+.labels[b-qtskbi4gqv] {
+    font-size: 11px
+}
+
+.add-experience:hover[b-qtskbi4gqv] {
+    background: #BA68C8;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #BA68C8
+}
+
+.profile-pic[b-qtskbi4gqv] {
+    color: transparent;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: all 0.3s ease;
+}
+.profile-pic input[b-qtskbi4gqv] {
+    display: none;
+}
+.profile-pic img[b-qtskbi4gqv] {
+    position: absolute;
+    object-fit: cover;
+    width: 165px;
+    height: 165px;
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.35);
+    border-radius: 100px;
+    z-index: 0;
+}
+.profile-pic .-label[b-qtskbi4gqv] {
+    cursor: pointer;
+    height: 165px;
+    width: 165px;
+}
+.profile-pic:hover .-label[b-qtskbi4gqv] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 10000;
+    color: #fafafa;
+    transition: background-color 0.2s ease-in-out;
+    border-radius: 100px;
+    margin-bottom: 0;
+}
+.profile-pic span[b-qtskbi4gqv] {
+    display: inline-flex;
+    padding: 0.2em;
+    height: 2em;
+}
+body[b-qtskbi4gqv] {
+    height: 100vh;
+    background-color: #191815;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body a:hover[b-qtskbi4gqv] {
+    text-decoration: none;
+}
+
+.profile-pic[b-qtskbi4gqv]{
+    top: 100px;
+}
+
+.form-control[b-qtskbi4gqv]{
+    background-color: #eeabfa;
+    color: #000000;
+}
+
+.labels[b-qtskbi4gqv]{
+    color: #000000;
+    
+}
+
+[b-qtskbi4gqv]::placeholder{
+    color: #3d3d3d;
+}   
+
+
+/* popup */
+
+.card[b-qtskbi4gqv] {
+    overflow: hidden;
+    position: relative;
+    background-color: #ffffff;
+    text-align: left;
+    border-radius: 0.5rem;
+    max-width: 290px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  }
+  
+  .header[b-qtskbi4gqv] {
+    padding: 1.25rem 1rem 1rem 1rem;
+    background-color: #ffffff;
+  }
+  
+  .image[b-qtskbi4gqv] {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FEE2E2;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 9999px;
+  }
+  
+  .image svg[b-qtskbi4gqv] {
+    color: #DC2626;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+  .content[b-qtskbi4gqv] {
+    margin-top: 0.75rem;
+    text-align: center;
+  }
+  
+  .title[b-qtskbi4gqv] {
+    color: #111827;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+  }
+  
+  .message[b-qtskbi4gqv] {
+    margin-top: 0.5rem;
+    color: #6B7280;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+  
+  .actions[b-qtskbi4gqv] {
+    margin: 0.75rem 1rem;
+    background-color: #F9FAFB;
+  }
+  
+  .desactivate[b-qtskbi4gqv] {
+    display: inline-flex;
+    padding: 0.5rem 1rem;
+    background-color: #DC2626;
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    justify-content: center;
+    width: 100%;
+    border-radius: 0.375rem;
+    border-width: 1px;
+    border-color: transparent;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  }
+  
+  .cancel[b-qtskbi4gqv] {
+    display: inline-flex;
+    margin-top: 0.75rem;
+    padding: 0.5rem 1rem;
+    background-color: #ffffff;
+    color: #374151;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    justify-content: center;
+    width: 100%;
+    border-radius: 0.375rem;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  }
+
+  .Deletebutton[b-qtskbi4gqv]{
+    /* padding-left: 200px; */
+    margin-left: -45px;
+  }
+/* _content/app/Views/Forgotpassword/Changepassword.cshtml.rz.scp.css */
+.wrong .fa-check[b-3y1fewlofo]
+{
+    display: none;
+}
+
+.good .fa-times[b-3y1fewlofo]
+{
+    display: none;
+}
+.valid-feedback[b-3y1fewlofo],
+.invalid-feedback[b-3y1fewlofo] {
+  margin-left: calc(2em + 0.25rem + 1.5rem);
+}
+
+
+
+
+.header[b-3y1fewlofo]{
+    font-family:'Gloock', serif;
+    position:absolute;
+    width: 450px;
+    height: 54px;
+    left: 96px;
+    top: 200px;
+
+
+}
+#username[b-3y1fewlofo]{
+    position: absolute;
+    width: 301px;
+    height: 52px;
+    left: 150px;
+    top: 310px;
+
+    background-color: rgba(244, 72, 247, 0.27);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+
+    
+}
+
+#userinput[b-3y1fewlofo]{
+    position:absolute;
+    width: 176px;
+    height: 30px;
+    left: 159px;
+    top: 280px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4d4c4c;
+}
+
+#Confrmpassword[b-3y1fewlofo]{
+    position:absolute;
+    width: 200px;
+    height: 30px;
+    left: 159px;
+    top: 380px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4d4c4c;
+}
+#exampleInputPassword1[b-3y1fewlofo]{
+    position: absolute;
+    width: 301px;
+    height: 52px;
+    left: 150px;
+    top: 810px;
+    background-color: rgba(244, 72, 247, 0.27);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+}
+
+#button[b-3y1fewlofo]{
+    position: absolute;
+    width: 128px;
+    height: 38px;
+    left: 220px;
+    top: 526px;
+
+    background-color: #d100d6;
+    border-radius: 14px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.createAccount[b-3y1fewlofo]{
+    position: absolute;
+    width: 150px;
+    height: 20px;
+    left: 315px;
+    top: 466px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.Forgotpassword[b-3y1fewlofo]{
+    position: absolute;
+    width: 120px;
+    height: 20px;
+    left: 156px;
+    top: 466px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    color: #000000;
+}
+
+#admin[b-3y1fewlofo]{
+    position: absolute;
+    width: 230px;
+    height: 38px;
+    left: 175px;
+    top: 580px;
+
+    background: #d100d6;
+    border-radius: 14px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.mail-sent[b-3y1fewlofo]{
+    position: absolute;
+    width: 500px;
+    height: 550px;
+    left: 630px;
+    padding-top: 150px;
+}
+
+#username:valid[b-3y1fewlofo]{
+    background-color: #e6eff7;
+}
+/* _content/app/Views/Forgotpassword/ForgotPassword.cshtml.rz.scp.css */
+.header[b-saz3vpigzo]{
+    font-family:'Gloock', serif;
+    position:absolute;
+    width: 600px;
+    height: 54px;
+    left: 96px;
+    top: 200px;
+
+
+}
+#username[b-saz3vpigzo]{
+    position: absolute;
+    width: 301px;
+    height: 52px;
+    left: 150px;
+    top: 310px;
+
+    background-color: rgba(244, 72, 247, 0.27);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+
+    
+}
+
+#userinput[b-saz3vpigzo]{
+    position:absolute;
+    width: 176px;
+    height: 30px;
+    left: 270px;
+    top: 280px;
+
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4d4c4c;
+}
+
+#password[b-saz3vpigzo]{
+    position:absolute;
+    width: 176px;
+    height: 30px;
+    left: 159px;
+    top: 380px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4d4c4c;
+}
+#exampleInputPassword1[b-saz3vpigzo]{
+    position: absolute;
+    width: 301px;
+    height: 52px;
+    left: 150px;
+    top: 810px;
+    background-color: rgba(244, 72, 247, 0.27);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+}
+
+#button[b-saz3vpigzo]{
+    position: absolute;
+    width: 128px;
+    height: 38px;
+    left: 230px;
+    top: 380px;
+
+    background-color: #d100d6;
+    border-radius: 14px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.createAccount[b-saz3vpigzo]{
+    position: absolute;
+    width: 150px;
+    height: 20px;
+    left: 315px;
+    top: 466px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.Forgotpassword[b-saz3vpigzo]{
+    position: absolute;
+    width: 120px;
+    height: 20px;
+    left: 156px;
+    top: 466px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    color: #000000;
+}
+
+#admin[b-saz3vpigzo]{
+    position: absolute;
+    width: 230px;
+    height: 38px;
+    left: 175px;
+    top: 580px;
+
+    background: #d100d6;
+    border-radius: 14px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.mail-sent[b-saz3vpigzo]{
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    left: 700px;
+    top:120px;
+    box-shadow: #000000;
+
+}
+
+#username:valid[b-saz3vpigzo]{
+    background-color: #e6eff7;
+}
+/* _content/app/Views/Forgotpassword/Updatedpassword.cshtml.rz.scp.css */
+.header[b-dfrozpy3v6]{
+    font-family:'Gloock', serif;
+    position:absolute;
+    width: 650px;
+    height: 54px;
+    left:70px;
+    top: 200px;
+
+
+}
+#username[b-dfrozpy3v6]{
+    position: absolute;
+    width: 301px;
+    height: 52px;
+    left: 150px;
+    top: 310px;
+
+    background-color: rgba(244, 72, 247, 0.27);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+
+    
+}
+
+#userinput[b-dfrozpy3v6]{
+    position:absolute;
+    width: 176px;
+    height: 30px;
+    left: 270px;
+    top: 280px;
+
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4d4c4c;
+}
+
+#password[b-dfrozpy3v6]{
+    position:absolute;
+    width: 176px;
+    height: 30px;
+    left: 159px;
+    top: 380px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4d4c4c;
+}
+#exampleInputPassword1[b-dfrozpy3v6]{
+    position: absolute;
+    width: 301px;
+    height: 52px;
+    left: 150px;
+    top: 810px;
+    background-color: rgba(244, 72, 247, 0.27);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+}
+
+#ok[b-dfrozpy3v6]{
+    position: absolute;
+    width: 128px;
+    height: 38px;
+    left: 400px;
+    top: 400px;
+
+    background-color: #d100d6;
+    border-radius: 14px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    border-color: #d100d6;
+    
+}
+
+.createAccount[b-dfrozpy3v6]{
+    position: absolute;
+    width: 150px;
+    height: 20px;
+    left: 315px;
+    top: 466px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.Forgotpassword[b-dfrozpy3v6]{
+    position: absolute;
+    width: 120px;
+    height: 20px;
+    left: 156px;
+    top: 466px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    color: #000000;
+}
+
+#admin[b-dfrozpy3v6]{
+    position: absolute;
+    width: 230px;
+    height: 38px;
+    left: 175px;
+    top: 580px;
+
+    background: #d100d6;
+    border-radius: 14px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.mail-sent[b-dfrozpy3v6]{
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    left: 870px;
+    top:120px;
+    box-shadow: #000000;
+
+}
+
+#username:valid[b-dfrozpy3v6]{
+    background-color: #e6eff7;
+}
+
+
+.Verification[b-dfrozpy3v6]{
+    font-family: 'Poppins';
+    margin-top:240px;
+    margin-left: -80px;
+    width: 800px;
+    /* padding-top: 200px; */
+}
+
+.alert[b-dfrozpy3v6]{
+    font-family: 'Poppins';
+    color: red;
+}
+
+.button[b-dfrozpy3v6]{
+    position: absolute;
+    width: 128px;
+    height: 38px;
+    left: 200px;
+    top: 400px;
+    color: #000000;
+
+
+    background-color: #ce99e8;
+    border-radius: 14px;
+    justify-content: center;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    border-color: #d60000;
+    border-width: 2px;
+    
+}
+
+.cancel[b-dfrozpy3v6]{
+    text-decoration: none;
+    color: black;
+    left: 200px;
+    align-items: center;
+    text-align: center;
+}
+/* _content/app/Views/Forgotpassword/Verification.cshtml.rz.scp.css */
+.header[b-inbott7kui]{
+    justify-content: center;
+    font-family:'Gloock', serif;
+    position:absolute;
+    width: 600px;
+    height: 54px;
+    left: 200px;
+    top: 150px;
+
+
+}
+#username[b-inbott7kui]{
+    position: absolute;
+    width: 301px;
+    height: 52px;
+    left: 150px;
+    top: 310px;
+
+    background-color: rgba(244, 72, 247, 0.27);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+
+    
+}
+
+#userinput[b-inbott7kui]{
+    position:absolute;
+    width: 176px;
+    height: 30px;
+    left: 270px;
+    top: 280px;
+
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4d4c4c;
+}
+
+#password[b-inbott7kui]{
+    position:absolute;
+    width: 176px;
+    height: 30px;
+    left: 159px;
+    top: 380px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4d4c4c;
+}
+#exampleInputPassword1[b-inbott7kui]{
+    position: absolute;
+    width: 301px;
+    height: 52px;
+    left: 150px;
+    top: 810px;
+    background-color: rgba(244, 72, 247, 0.27);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+}
+
+#ok[b-inbott7kui]{
+    position: absolute;
+    width: 128px;
+    height: 38px;
+    left: 400px;
+    top: 400px;
+
+    background-color: #d100d6;
+    border-radius: 14px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    border-color: #d100d6;
+    
+}
+
+.createAccount[b-inbott7kui]{
+    position: absolute;
+    width: 150px;
+    height: 20px;
+    left: 315px;
+    top: 466px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.Forgotpassword[b-inbott7kui]{
+    position: absolute;
+    width: 120px;
+    height: 20px;
+    left: 156px;
+    top: 466px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    color: #000000;
+}
+
+#admin[b-inbott7kui]{
+    position: absolute;
+    width: 230px;
+    height: 38px;
+    left: 175px;
+    top: 580px;
+
+    background: #d100d6;
+    border-radius: 14px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.mail-sent[b-inbott7kui]{
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    left: 870px;
+    top:120px;
+    box-shadow: #000000;
+
+}
+
+#username:valid[b-inbott7kui]{
+    background-color: #e6eff7;
+}
+
+
+.Verification[b-inbott7kui]{
+    font-family: 'Poppins';
+    margin-top:180px;
+    margin-left: 0px;
+    width: 800px;
+    /* padding-top: 200px; */
+}
+
+.alert[b-inbott7kui]{
+    font-family: 'Poppins';
+    color: red;
+}
+
+.button[b-inbott7kui]{
+    position: absolute;
+    width: 128px;
+    height: 38px;
+    left: 200px;
+    top: 400px;
+    color: #000000;
+
+
+    background-color: #ce99e8;
+    border-radius: 14px;
+    justify-content: center;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    border-color: #d60000;
+    border-width: 2px;
+    
+}
+
+.cancel[b-inbott7kui]{
+    text-decoration: none;
+    color: black;
+    left: 200px;
+    align-items: center;
+    text-align: center;
+}
+
+#button[b-inbott7kui]{
+    position: absolute;
+    width: 128px;
+    height: 38px;
+    left: 230px;
+    top: 380px;
+
+    background-color: #d100d6;
+    border-radius: 14px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+/* _content/app/Views/Home/Forgot.cshtml.rz.scp.css */
+.container[b-02tyk5mcs9]{
+	display: flex;
+	flex-flow: column;
+	height: 100%;
+	align-items: space-around;
+	justify-content: center;
+}
+
+.userInput[b-02tyk5mcs9]{
+	display: flex;
+	justify-content: center;
+}
+
+input[b-02tyk5mcs9]{
+	margin: 10px;
+	height: 35px;
+	width: 65px;
+	border: none;
+	border-radius: 5px;
+	text-align: center;
+	font-family: arimo;
+	font-size: 1.2rem;
+	background: #eef2f3;
+
+}
+
+h1[b-02tyk5mcs9]{
+	text-align: center;
+	font-family: arimo;
+	color: honeydew;
+}
+
+
+button[b-02tyk5mcs9]{
+	width: 150px;
+	height: 40px;
+	margin: 25px auto 0px auto;
+	font-family: arimo;
+	font-size: 1.1rem;
+	border: none;
+	border-radius: 5px;
+	letter-spacing: 2px;
+	cursor: pointer;
+	background-color: #f524f8;
+}
+
+#exampleInputPassword1[b-02tyk5mcs9]{
+    width: 200px;
+    background-color: #fa93fc;
+}
+
+#username[b-02tyk5mcs9]{
+    width: 200px;
+    background-color: #fa93fc;
+}
+
+#First[b-02tyk5mcs9]{
+    background-color: #fa93fc; 
+}
+
+#sec[b-02tyk5mcs9]{
+    background-color: #fa93fc;
+}
+
+#third[b-02tyk5mcs9]{
+    background-color: #fa93fc;
+}
+
+#fourth[b-02tyk5mcs9]{
+    background-color: #fa93fc;
+}
+
+#fifth[b-02tyk5mcs9]{
+    background-color: #fa93fc;
+}
+
+.userInput[b-02tyk5mcs9]{
+    padding-right: 690px;
+}
+/* _content/app/Views/Home/Index.cshtml.rz.scp.css */
+.hello[b-hjijjck99x]{
+    padding-top: 0px;
+    font-family: 'Gloock', serif;
+}
+
+.content[b-hjijjck99x]{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#button[b-hjijjck99x]{
+    position: absolute;
+    width: 100px;
+    height: 39px;
+    font-family: 'Poppins';
+
+    background: #D100D6;
+    border-radius: 22px;
+}
+
+
+
+.head[b-hjijjck99x]{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    
+}
+
+img[b-hjijjck99x]{
+    max-width: 100%;
+    max-height: 100%;
+}
+.text[b-hjijjck99x]{
+    font-size: 20px;
+}
+
+.bg[b-hjijjck99x]{
+    background-repeat: no-repeat;
+}
+/* _content/app/Views/Home/Login_form.cshtml.rz.scp.css */
+.Header[b-f3euys2t39]{
+    font-family: 'Poppins';
+    padding-top: 60px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+#username[b-f3euys2t39]{
+    position: absolute;
+    width: 539px;
+    height: 52px;
+    background: #f180d7;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    border-radius: 10px;
+    top: 240px;
+}
+
+#email[b-f3euys2t39]{
+    position: absolute;
+    width: 539px;
+    height: 52px;
+    background: #f180d7;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    border-radius: 10px;
+    top: 340px;
+}
+
+#password[b-f3euys2t39]{
+    position: absolute;
+    width: 539px;
+    height: 52px;
+    background: #f180d7;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    border-radius: 10px;
+    top: 440px;
+}
+
+#ID[b-f3euys2t39]{
+    position: absolute;
+    width: 539px;
+    height: 52px;
+    background: #f180d7;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    border-radius: 10px;
+    top: 540px;
+}
+
+#button[b-f3euys2t39]{
+    position: absolute;
+    width: 146px;
+    height: 41px;
+    top: 610px;
+    left: 300px;
+
+    background: #d100d6;
+    border-radius: 14px;
+}
+
+#uname[b-f3euys2t39]{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    padding-left: 10px;
+    padding-top: 30px;
+}
+
+#pwd[b-f3euys2t39]{ 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    padding-top: 45px;
+    padding-left: 10px;
+}
+
+#mail[b-f3euys2t39]{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    padding-top: 47px;
+    padding-left: 10px;
+}
+
+#id[b-f3euys2t39]{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    padding-top: 47px;
+    padding-left: 10px;
+}
+
+.mail1[b-f3euys2t39]{
+    position: absolute;
+    width: 600px;
+    height: 463.07px;
+    left: 700px;
+    top: 150px;
+
+    filter: drop-shadow(11px 6px 9px rgba(0,0,0,0.25));
+
+}
+
+
+button[b-f3euys2t39]{
+    font-family: 'Poppins';
+}
+
+.mail1[b-f3euys2t39]{
+    width: 600px;
+    height: 450px;
+}
+
+
+/* _content/app/Views/Home/Signin.cshtml.rz.scp.css */
+.header[b-bcexb2v7su]{
+    font-family:'Gloock', serif;
+    position:absolute;
+    width: 450px;
+    height: 54px;
+    left: 96px;
+    top: 200px;
+
+
+}
+#username[b-bcexb2v7su]{
+    position: absolute;
+    width: 301px;
+    height: 52px;
+    left: 150px;
+    top: 310px;
+
+    background-color: rgba(244, 72, 247, 0.27);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+
+    
+}
+
+#userinput[b-bcexb2v7su]{
+    position:absolute;
+    width: 176px;
+    height: 30px;
+    left: 159px;
+    top: 280px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4d4c4c;
+}
+
+#password[b-bcexb2v7su]{
+    position:absolute;
+    width: 176px;
+    height: 30px;
+    left: 159px;
+    top: 380px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4d4c4c;
+}
+#exampleInputPassword1[b-bcexb2v7su]{
+    position: absolute;
+    width: 301px;
+    height: 52px;
+    left: 150px;
+    top: 810px;
+    background-color: rgba(244, 72, 247, 0.27);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+}
+
+#button[b-bcexb2v7su]{
+    position: absolute;
+    width: 128px;
+    height: 38px;
+    left: 220px;
+    top: 526px;
+
+    background-color: #d100d6;
+    border-radius: 14px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.createAccount[b-bcexb2v7su]{
+    position: absolute;
+    width: 150px;
+    height: 20px;
+    left: 315px;
+    top: 466px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.Forgotpassword[b-bcexb2v7su]{
+    position: absolute;
+    width: 120px;
+    height: 20px;
+    left: 156px;
+    top: 466px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    color: #000000;
+}
+
+#admin[b-bcexb2v7su]{
+    position: absolute;
+    width: 230px;
+    height: 38px;
+    left: 175px;
+    top: 580px;
+
+    background: #d100d6;
+    border-radius: 14px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.mail-sent[b-bcexb2v7su]{
+    position: absolute;
+    width: 500px;
+    height: 550px;
+    left: 630px;
+    padding-top: 150px;
+}
+
+#username:valid[b-bcexb2v7su]{
+    background-color: #e6eff7;
+}
+/* _content/app/Views/Mail/Sentmail.cshtml.rz.scp.css */
+.from[b-zo9e3pa0r9]{
+    position: absolute;
+    width: 290px;
+    height: 40px;
+    border-radius: 7px;
+    justify-content: left;
+    left: 480px;
+    top: 150px;
+    /* margin-right: 200px; */
+}
+
+.From_text[b-zo9e3pa0r9]{
+    position: absolute;
+    justify-content: left;
+    left: 410px;
+    top: 155px;
+}
+
+.To[b-zo9e3pa0r9]{
+    width: 290px;
+    height: 40px;
+    border-radius: 7px;
+    position: absolute;
+    justify-content: left;
+    left: 480px;
+    top: 250px;
+}
+
+.to_text[b-zo9e3pa0r9]{
+    position: absolute;
+    justify-content: left;
+    left: 410px;
+    top: 255px;
+}
+
+.subject[b-zo9e3pa0r9]{
+    width: 290px;
+    height: 40px;
+    border-radius: 7px;
+    position: absolute;
+    justify-content: left;
+    left: 480px;
+    top: 350px;
+}
+
+.subject_text[b-zo9e3pa0r9]{
+    position: absolute;
+    justify-content: left;
+    left: 400px;
+    top: 355px;
+}
+
+.Content[b-zo9e3pa0r9]{
+    width: 290px;
+    /* height: 40px; */
+    border-radius: 7px;
+    position: absolute;
+    justify-content: left;
+    left: 480px;
+    top: 450px;
+}
+
+.Content_text[b-zo9e3pa0r9]{
+    position: absolute;
+    justify-content: left;
+    left: 390px;
+    top: 485px;
+}
+
+/* _content/app/Views/Resetpassword/Index.cshtml.rz.scp.css */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap'); */
+
+input[b-s7khk52lt2] {
+    caret-color: red;
+}
+
+body[b-s7khk52lt2] {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #ecf0f3;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+    overflow: hidden;
+    font-family: poppins;
+}
+
+.container[b-s7khk52lt2] {
+    align-items: center;
+    position: relative;
+    width: 350px;
+    height: 500px;
+    top: 30px;
+    border-radius: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #ecf0f3;
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+}
+
+.brand-logo[b-s7khk52lt2] {
+    height: 100px;
+    width: 100px;
+    /* background: url("../../wwwroot/img/health.png"); */
+    margin: auto;
+    border-radius: 50%;
+    box-sizing: border-box;
+    box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+}
+
+.brand-title[b-s7khk52lt2] {
+    margin-top: 10px;
+    font-weight: 900;
+    font-size: 1.8rem;
+    color: #f21deb;
+    letter-spacing: 1px;
+}
+
+.inputs[b-s7khk52lt2] {
+    text-align: left;
+    margin-top: 30px;
+}
+
+label[b-s7khk52lt2],
+input[b-s7khk52lt2],
+button[b-s7khk52lt2] {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+label[b-s7khk52lt2] {
+    margin-bottom: 4px;
+}
+
+label:nth-of-type(2)[b-s7khk52lt2] {
+    margin-top: 12px;
+}
+
+input[b-s7khk52lt2]::placeholder {
+    color: gray;
+}
+
+input[b-s7khk52lt2] {
+    background: #ecf0f3;
+    padding: 10px;
+    padding-left: 20px;
+    height: 50px;
+    font-size: 14px;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+button[b-s7khk52lt2] {
+    color: white;
+    margin-top: 20px;
+    background: #d100d6;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 900;
+    box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+    transition: 0.5s;
+}
+
+button:hover[b-s7khk52lt2] {
+    box-shadow: none;
+}
+
+a[b-s7khk52lt2] {
+    position: absolute;
+    font-size: 8px;
+    bottom: 4px;
+    right: 4px;
+    text-decoration: none;
+    color: black;
+    background: yellow;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+h1[b-s7khk52lt2] {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.logo[b-s7khk52lt2] {
+    position: absolute;
+    align-items: center;
+    left: 150px;
+    top: 60px;
+}
+/* _content/app/Views/Resetpassword/Resetpin.cshtml.rz.scp.css */
+.wrong .fa-check[b-njtlzjbipd]
+{
+    display: none;
+}
+
+.good .fa-times[b-njtlzjbipd]
+{
+    display: none;
+}
+.valid-feedback[b-njtlzjbipd],
+.invalid-feedback[b-njtlzjbipd] {
+  margin-left: calc(2em + 0.25rem + 1.5rem);
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap'); */
+
+input[b-njtlzjbipd] {
+    caret-color: red;
+}
+
+body[b-njtlzjbipd] {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #ecf0f3;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+    overflow: hidden;
+    font-family: poppins;
+}
+
+.container[b-njtlzjbipd] {
+    align-items: center;
+    position: relative;
+    width: 350px;
+    height: 500px;
+    top: 30px;
+    border-radius: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #ecf0f3;
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+}
+
+.brand-logo[b-njtlzjbipd] {
+    height: 100px;
+    width: 100px;
+    /* background: url("../../wwwroot/img/health.png"); */
+    margin: auto;
+    border-radius: 50%;
+    box-sizing: border-box;
+    box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+}
+
+.brand-title[b-njtlzjbipd] {
+    margin-top: 10px;
+    font-weight: 900;
+    font-size: 1.8rem;
+    color: #f21deb;
+    letter-spacing: 1px;
+}
+
+.inputs[b-njtlzjbipd] {
+    text-align: left;
+    margin-top: 30px;
+}
+
+label[b-njtlzjbipd],
+input[b-njtlzjbipd],
+button[b-njtlzjbipd] {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+label[b-njtlzjbipd] {
+    margin-bottom: 4px;
+}
+
+label:nth-of-type(2)[b-njtlzjbipd] {
+    margin-top: 12px;
+}
+
+input[b-njtlzjbipd]::placeholder {
+    color: gray;
+}
+
+input[b-njtlzjbipd] {
+    background: #ecf0f3;
+    padding: 10px;
+    padding-left: 20px;
+    height: 50px;
+    font-size: 14px;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+button[b-njtlzjbipd] {
+    color: white;
+    margin-top: 20px;
+    background: #d100d6;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 900;
+    box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+    transition: 0.5s;
+}
+
+button:hover[b-njtlzjbipd] {
+    box-shadow: none;
+}
+
+a[b-njtlzjbipd] {
+    position: absolute;
+    font-size: 8px;
+    bottom: 4px;
+    right: 4px;
+    text-decoration: none;
+    color: black;
+    background: yellow;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+h1[b-njtlzjbipd] {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.logo[b-njtlzjbipd] {
+    position: absolute;
+    align-items: center;
+    left: 150px;
+    top: 60px;
+}
+/* _content/app/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+body[b-uwi58k5n9p]{
+  background-image: url(../../wwwroot/img/bgimg.png);
+}
+
+a.navbar-brand[b-uwi58k5n9p] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-uwi58k5n9p] {
+  color: #0077cc;
+}
+
+.logo[b-uwi58k5n9p]{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 10px;
+}
+
+.mail[b-uwi58k5n9p]{
+  position: absolute;
+  width: 92px;
+  height: 61px;
+  left: 60px;
+  top: 2px;
+  font-family: 'Lancelot';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 61px;
+  color: #000000;
+}
+
+
+
+
+
+.btn-primary[b-uwi58k5n9p] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-uwi58k5n9p], .nav-pills .show > .nav-link[b-uwi58k5n9p] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-uwi58k5n9p] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-uwi58k5n9p] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-uwi58k5n9p] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-uwi58k5n9p] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-uwi58k5n9p] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+
+#home[b-uwi58k5n9p]{
+  position: relative;
+  width: 73px;
+  height: 36px;
+  left: 180px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  color: #000000;
+}
+
+#privacy[b-uwi58k5n9p]{
+  position: absolute;
+  width: 74px;
+  height: 36px;
+  left: 337px;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 36px;
+  color: #000000;
+  
+}
+
+.mail[b-uwi58k5n9p]{
+  position: absolute;
+}
+
+.nav-link:hover[b-uwi58k5n9p]{
+  font-size: 200px;
+}

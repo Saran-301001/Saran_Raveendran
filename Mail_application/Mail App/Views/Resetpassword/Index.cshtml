@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+@model APP.Models.UserInput
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/Index.cshtml.css" asp-append-version="true" />
+    <title>Document</title>
+</head>
+
+<style>
+    .inputs {
+        text-align: left;
+        margin-top: 30px;
+    }
+
+    label,
+    input,
+    button {
+        display: block;
+        width: 100%;
+        padding: 0;
+        border: none;
+        outline: none;
+        box-sizing: border-box;
+    }
+
+    label {
+        margin-bottom: 4px;
+    }
+
+    label:nth-of-type(2) {
+        margin-top: 12px;
+    }
+
+    input::placeholder {
+        color: gray;
+    }
+
+    input {
+        background: #ecf0f3;
+        padding: 10px;
+        padding-left: 20px;
+        height: 50px;
+        font-size: 14px;
+        border-radius: 50px;
+        box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+    }
+
+    
+    
+
+    
+</style>
+
+<body>
+
+      @if (ViewBag.Message != null)
+    {
+        <div class="alert alert-danger" role="alert">
+           Hey <b>@ViewBag.Message</b> Please check your mail.
+        </div>
+    }
+
+    @* <form method="post" asp-action="Index"> *@
+    <form method="post" asp-action="Index">
+        <div class="container">
+            <div class="brand-logo">
+                <img class="logo" src="../../img/health.png" class="bg-img" alt="background">
+            </div>
+            <div class="brand-title">Reset password?</div>
+            <div class="inputs">
+                <label>EMAIL</label>
+                <input type="email" class="box" asp-for="Email" placeholder="example@aspiresystem.com" />
+
+            </div>
+            <div class="inputs">
+                <label>Reset Password Key</label>
+                <input type="text" class="box" asp-for="Reset_Key" placeholder="$sdfhgf2332##asdfs" />
+                <button type="submit">LOGIN</button>
+            </div>
+
+        </div>
+    </form>
+<br>
+<br>
+
+  
+</body>
+
+</html>

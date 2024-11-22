@@ -1,0 +1,38 @@
+body[b-t6030tbtvv]{
+    background: rgb(153,16,180);
+    background: linear-gradient(320deg, rgba(153,16,180,1) 0%, rgba(226,226,226,1) 0%, rgba(247,155,239,1) 100%);background-repeat: no-repeat;
+}
+
+
+.button[b-t6030tbtvv]{
+    background-color: rgb(159, 73, 240);
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    border-color:rgb(159, 73, 240);
+    font-family: 'Poppins';
+}
+
+.Deletebutton[b-t6030tbtvv]{
+    background-color: rgb(247, 70, 70);
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    border-color:rgb(245, 54, 54);
+    font-family: 'Poppins';
+}
+
+h1[b-t6030tbtvv]{
+    font-family: 'Poppins';
+}
+
+.btn[b-t6030tbtvv]{
+    position: absolute;
+    width: 180px;
+    left: 70%;
+    top: 23%;
+    /* padding-left: 50%;
+    width: 10px;
+    text-align: center;
+    padding-top: 20%; */
+}

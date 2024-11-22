@@ -1,0 +1,154 @@
+@using System.Data;
+@model DataTable;
+
+
+
+
+@{
+  ViewData["Title"] = "Admin-Panel";
+  Layout = "../Shared/HomeLayout";
+}
+
+<head>
+  <link rel="stylesheet" href="~/Dashboard.cshtml.css" asp-append-version="true" />
+</head>
+
+<style>
+    #searchh {
+        position: fixed;
+        margin-left: 420px;
+        margin-top: 10px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .no_records {
+        font-size: 20px;
+        font-family: "Poppins";
+        text-align: center;
+    }
+
+
+
+    #icon {
+        width: 200px;
+        height: 200px;
+        left: 2000px;
+        margin-left: -20px;
+    }
+
+    #inbox {
+        position: absolute;
+        justify-content: left;
+        left: 40px;
+        top:200px;
+        margin-top: 20px;
+        width: 30px;
+        height: 30px;
+    }
+
+    #inbox:hover {
+        width: 40px;
+        height: 40px;
+    }
+
+    #send {
+        position: absolute;
+        justify-content: left;
+        left: 40px;
+        top:300px;
+        width: 30px;
+        height: 30px;
+    }
+
+    #message {
+        position: absolute;
+        justify-content: left;
+        left: 40px;
+        top:400px;
+        width: 40px;
+        height: 40px;
+    }
+
+    #send:hover {
+        width: 40px;
+        height: 40px;
+    }
+
+    #message:hover {
+        width: 40px;
+        height: 40px;
+    }
+
+    #trash{
+        position: absolute;
+        justify-content: left;
+        left: 40px;
+        top:500px;
+        margin-right: 2000px;
+        width: 30px;
+        height: 30px;
+    }
+
+    #trash:hover{
+        width: 40px;
+        height: 40px;
+    }
+
+    
+</style>
+
+<body style="background: rgb(153,16,180);
+background: linear-gradient(320deg, rgba(153,16,180,1) 0%, rgba(226,226,226,1) 0%, rgba(247,155,239,1) 100%);">
+
+    <a asp-controller="Admin" asp-action="Index">
+        <img class="search" id="inbox" src="../../img/inbox.png" alt="background">
+    </a>
+
+    <a href="Index">
+        <img class="search" id="send" src="../../img/paper-plane.png" alt="background">
+    </a>
+
+    <a asp-action="Index" asp-controller="Chat">
+        <img class="search" id="message" src="../../img/chatting.png" alt="background">
+    </a>
+
+    <a href="../Chat/Index">
+        <img class="search" id="trash" src="../../img/trash-solid.svg" alt="background">
+    </a>
+
+  <br>
+  <br>
+  <br>
+  <h1>Wanna Chat?</h1>
+  <table class="table table-hover" id="table" style="padding-top: 200px;">
+    <thead>
+      <tr>
+        <th scope="col">UserName</th>
+        <th scope="col">Email</th>
+        <th scope="col">Employee Role</th>
+        <th scope="col"></th>
+        
+      </tr>
+    </thead>
+    <tbody>
+
+       
+
+      @foreach (DataRow item in Model.Rows)
+      {
+        <ol>
+          <tr>
+            <td>@item[0]</td>
+            <td>@item[1]</td>
+            
+            <td>@item[3]</td>
+            <td><a asp-action="Chat" asp-controller="Chat" asp-route-id="@item[1]"><button
+                  class="Deletebutton">Chat</button></a></td>
+          </tr>
+        </ol>
+      }
+
+    </tbody>
+  </table>
+</body>

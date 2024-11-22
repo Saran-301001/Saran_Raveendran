@@ -1,0 +1,40 @@
+@{
+    ViewData["Title"] = "Admin-Login";
+}
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel='stylesheet'>
+</head>
+
+<body>
+    <h1 class="header">Welcome Admin ⚡</h1>
+
+    <form action="AdminLogin" method="post">
+        <div class="mb-3">
+            <label for="exampleInputUsername" id="userinput" class="form-label">UserName</label>
+            <input type="UserName" class="form-control" id="username" name="UserName" aria-describedby="emailHelp"
+                required>
+        </div>
+
+        <div class="mb-3">
+            <label for="exampleInputPassword1" action="" id="password" class="form-label">Password</label>
+            <input type="password" class="form-control" name="Password" id="exampleInputPassword1" required>
+            <a href="Forgotpassword" class="Forgotpassword" style="color: #d100d6;">Forgot password?</a>
+        </div>
+        <button type="submit" id="button" class="btn btn-primary">Submit</button>
+    </form>
+
+    @if (ViewBag.Message != null)
+    {
+        <script type="text/javascript">
+            window.onload = function () {
+                alert("@ViewBag.Message");
+            };
+        </script>
+    }
+</body>
+

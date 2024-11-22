@@ -1,0 +1,148 @@
+@model APP.Models.UserInput
+@{
+    ViewData["Title"] = "Admin-Panel";
+    Layout = "../Shared/EmployeeLayout";
+}
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    @* <link rel="stylesheet" href="~/Index.cshtml.css" asp-append-version="true" /> *@
+    <link rel="stylesheet" href="~/Index.cshtml.css" asp-append-version="true"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel='stylesheet'>
+</head>
+
+<style>
+    #searchh {
+        position: fixed;
+        margin-left: 420px;
+        margin-top: 10px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .no_records {
+        font-size: 20px;
+        font-family: "Poppins";
+        text-align: center;
+    }
+
+
+
+    #icon {
+        width: 200px;
+        height: 200px;
+        left: 2000px;
+        margin-left: -20px;
+    }
+
+    #inbox {
+        position: absolute;
+        justify-content: left;
+        left: 40px;
+        top:200px;
+        margin-top: 20px;
+        width: 30px;
+        height: 30px;
+    }
+
+    #inbox:hover {
+        width: 40px;
+        height: 40px;
+    }
+
+    #send {
+        position: absolute;
+        justify-content: left;
+        left: 40px;
+        top:300px;
+        width: 30px;
+        height: 30px;
+    }
+
+    #message {
+        position: absolute;
+        justify-content: left;
+        left: 40px;
+        top:400px;
+        width: 30px;
+        height: 30px;
+    }
+
+    #send:hover {
+        width: 40px;
+        height: 40px;
+    }
+
+    #message:hover {
+        width: 40px;
+        height: 40px;
+    }
+
+    #trash{
+        position: absolute;
+        justify-content: left;
+        left: 40px;
+        top:500px;
+        margin-right: 2000px;
+        width: 30px;
+        height: 30px;
+    }
+
+    #trash:hover{
+        width: 40px;
+        height: 40px;
+    }
+
+    
+</style>
+
+<body style="background: rgb(239,178,241);
+background: linear-gradient(320deg, rgba(239,178,241,1) 0%, rgba(232,34,238,1) 100%);">
+    <div class="btn">
+    </div>
+
+    <div class="row">
+        <div class="col-md-5 mx-auto">
+
+            <div class="input-group">
+
+                <input class="form-control border-end-0 border rounded-pill" type="search"
+                    placeholder="example@aspiresystem.com" id="example-search-input">
+
+                <span class="input-group-append">
+
+                </span>
+                <img class="search" id="searchh" style="width: 20px;height: 20px;" src="../../img/search.png"
+                    alt="background">
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <h1 class="no_records">No Records Found</h1>
+
+    <a href="Index">
+        <img class="search" id="inbox" src="../../img/inbox.png" alt="background">
+    </a>
+
+    <a href="Index">
+        <img class="search" id="send" src="../../img/paper-plane.png" alt="background">
+    </a>
+
+    <a asp-action="Index" asp-controller="Chat">
+        <img class="search" id="message" src="../../img/chatting.png" alt="background">
+    </a>
+
+    <a href="../Chat/Index">
+        <img class="search" id="trash" src="../../img/trash-solid.svg" alt="background">
+    </a>
+
+    <a asp-action="Sentmail" asp-controller="Mail">
+    <button type="submit" id="button" class="btn btn-primary"><img class="search" id="pen" src="../../img/pen.png" alt="background">  Compose</button>
+    </a>
+</body>

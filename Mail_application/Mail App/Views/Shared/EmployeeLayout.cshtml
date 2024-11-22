@@ -1,0 +1,134 @@
+@using System.Data;
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/app.styles.css" asp-append-version="true" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+    
+</head>
+<body>
+    <style>
+        
+
+        .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+        display: block;
+        }
+
+        #sty1:hover{
+            font-size: 200px;
+        }
+
+
+        .dropdown{
+            justify-content: left;
+            left: -     200px;
+        }
+        .dropdown-content {
+            justify-content: left;
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            padding: 12px 16px;
+            z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .logo {
+            justify-content: left;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%
+        }
+
+    </style>
+    
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                @* <img src="../../img/health.png" class="logo" alt="logo"> *@
+                <h5 class="mail" asp-controller="Home" asp-action="Index">Mail</h5>
+                @* <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">app</a> *@
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="true" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <div id="home">
+                            <a class="nav-link text-dark" style="font-family: 'Poppins';color:red"  asp-area="" asp-controller="Admin" asp-action="Index">Home</a></div>
+                        </li>
+                        <li class="nav-item">
+                            <div id="privacy">
+                            @* <a class="nav-link text-dark" id="sty1"  asp-area="" asp-controller="Admin" asp-action="Dashboard">Dashboard</a></div> *@
+                        </li>
+                        
+
+                        <li class="nav-item">
+                            <div id="privacy">
+                            <a class="nav-link text-dark" style="font-family: 'Poppins';padding-left:980px"   asp-area="" asp-controller="Employee" asp-action="">@ViewBag.user</a></div>
+                           
+                        </li>
+                    </ul>
+                     
+                        <div class="dropdown">
+                        <img src="../../img/User.png" class="logo" alt="logo">
+                        <div class="dropdown-content" style="right: 0%;">
+                            <a asp-action="EmployeeUpdate" asp-controller="Employee" asp-route-id="@ViewBag.user"
+                                style="font-family: 'Poppins';text-decoration: none;color:#000000;">
+                                <p>Profile</p>
+                            </a>
+                            <a asp-action="EmployeeUpdate" asp-controller="Employee" asp-route-id="@ViewBag.user"
+                                style="font-family: 'Poppins';text-decoration: none;color:#000000;">
+                                <p>Update</p>
+                            </a>
+                            <a href="../../Resetpassword/Index" style="font-family: 'Poppins';text-decoration: none;color:#000000;">
+                                <p>Reset Password</p>
+                            </a>
+                            <a asp-area="" asp-controller="Admin" asp-action="Logout"
+                                style="font-family: 'Poppins';text-decoration: none;color:#000000;">
+                                <p>Logout</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+</body>
+</html>

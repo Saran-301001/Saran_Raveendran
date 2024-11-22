@@ -1,0 +1,40 @@
+.hello[b-hjijjck99x]{
+    padding-top: 0px;
+    font-family: 'Gloock', serif;
+}
+
+.content[b-hjijjck99x]{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#button[b-hjijjck99x]{
+    position: absolute;
+    width: 100px;
+    height: 39px;
+    font-family: 'Poppins';
+
+    background: #D100D6;
+    border-radius: 22px;
+}
+
+
+
+.head[b-hjijjck99x]{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    
+}
+
+img[b-hjijjck99x]{
+    max-width: 100%;
+    max-height: 100%;
+}
+.text[b-hjijjck99x]{
+    font-size: 20px;
+}
+
+.bg[b-hjijjck99x]{
+    background-repeat: no-repeat;
+}

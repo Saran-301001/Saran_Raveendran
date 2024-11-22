@@ -1,0 +1,41 @@
+@{
+  ViewData["Title"] = "CreateAccount";
+}
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel='stylesheet'>
+</head>
+
+<body style="background: rgb(153,16,180); 
+background: linear-gradient(320deg, rgba(153,16,180,1) 0%, rgba(246,237,242,1) 0%, rgba(183,103,224,1) 100%);">
+  <h1 class="Header">Get started with your account</h1>
+  <form action="Input" method="post">
+    <div class="mb-3">
+      <label for="exampleInputUsername" id="uname" class="form-label">UserName</label>
+      <input type="UserName" class="form-control" id="username" name="UserName" aria-describedby="emailHelp" required>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" id="mail" class="form-label">Email</label>
+      <input type="Email" class="form-control" name="Email" id="email" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="exampleInputPassword1" id="pwd" action="" class="form-label">Password</label>
+      <input type="password" class="form-control" name="Password" id="password" required>
+    </div>
+
+    <div class="mb-3">
+      <label for="exampleInputPassword1" id="id" class="form-label">UserId</label>
+      <input type="Number" class="form-control" name="Id" id="ID" required>
+    </div>
+
+    <button type="submit" id="button" class="btn btn-primary" style="font-family: 'Poppins';">Register</button>
+  </form>
+
+  <img class="mail1" src="../../img/mail1.png" class="bg-img" alt="background">
+
+</body>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+@model APP.Models.ChatData;
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+</head>
+
+<style>
+    #text {
+        width: 700px;
+        margin-left: 120px;
+    }
+
+    #content {
+        margin-left: 120px;
+        font-family: 'Poppins';
+    }
+</style>
+
+<body>
+
+
+    <form asp-action="Chat" method="post">
+        <label for="">To:</label>
+        <input type="email" class="form-control" asp-for="Email" value=@ViewBag.chat readonly></div>
+        </div>
+        <br>
+        <br>
+        <label for="" id="content">Content:</label>
+        <textarea name="Content" asp-for="Content" class="form-control" id="text" cols="20" rows="3"></textarea>
+
+        <br>
+        <br>
+        <div class="Deletebutton text-center"><button class="btn btn-primary profile-button"
+                style="background-color:rgb(193, 9, 199) ;" onclick="myFunction()">SaveProfile</button></div>
+    </form>
+
+       
+
+
+
+
+<p id="demo"></p>
+<script>
+    function myFunction() {
+        let text = "Aru you sure? You want to update this profile";
+        if (confirm(text) == true) {
+            window.location.href = "Dashboard.cshtml";
+        }
+        document.getElementById("demo").innerHTML = Window.location.href;
+    }
+</script>
+
+
+
+
+</body>
+
+</html>

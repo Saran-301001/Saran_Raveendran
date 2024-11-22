@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="~/Sentmail.cshtml.css" asp-append-version="true"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  @* <label class="From_text"><h5>From:</h5></label>
+  <input class="from" type="text">
+  <br>
+  <br>
+
+  <label class="to_text"><h5>To:</h5></label>
+  <input class="To" type="text">
+  <br>
+  <br>
+
+  <label class="subject_text"><h5>Subject:</h5></label>
+  <input class="subject" type="text">
+  <br><br>
+
+  <label class="Content_text"><h5>Content:</h5></label>
+  <textarea class="Content" name="" id="" cols="30" rows="4"></textarea> *@
+  <style>
+  
+
+
+
+.form__group {
+	 position: relative;
+	 padding: 15px 0 0;
+	 margin-top: 10px;
+	 width: 100%;
+}
+ .form__field {
+	 font-family: inherit;
+	 width: 100%;
+	 border: 0;
+	 border-bottom: 2px solid #9b9b9b;
+	 outline: 0;
+	 font-size: 1.3rem;
+	 color: #000000;
+	 padding: 7px 0;
+	 background: transparent;
+	 transition: border-color 0.2s;
+}
+ .form__field::placeholder {
+	 color: transparent;
+}
+ .form__field:placeholder-shown ~ .form__label {
+	 font-size: 1.3rem;
+	 cursor: text;
+	 top: 20px;
+}
+ .form__label {
+	 position: absolute;
+	 top: 0;
+	 display: block;
+	 transition: 0.2s;
+	 font-size: 1rem;
+	 color: #9b9b9b;
+}
+ .form__field:focus {
+	 padding-bottom: 6px;
+	 font-weight: 700;
+	 border-width: 3px;
+	 border-image: linear-gradient(to right, #8e1199, #d338ef);
+	 border-image-slice: 1;
+}
+ .form__field:focus ~ .form__label {
+	 position: absolute;
+	 top: 0;
+	 display: block;
+	 transition: 0.2s;
+	 font-size: 1rem;
+	 color: #851199;
+	 font-weight: 700;
+}
+/* reset input */
+ .form__field:required, .form__field:invalid {
+	 box-shadow: none;
+}
+/* demo */
+ body {
+	 font-family: 'Poppins', sans-serif;
+	 flex-direction: column;
+	 justify-content: center;
+	 align-items: center;
+	 min-height: 100vh;
+	 font-size: 1.5rem;
+	
+}
+
+#textarea{
+}
+ 
+  </style>
+<div class="form__group field">
+  <input type="input" class="form__field" placeholder="Name" name="name" id='name' required />
+  <label for="name" class="form__label">From:</label>
+</div>
+
+<div class="form__group field">
+  <input type="input" class="form__field" placeholder="Name" name="name" id='name' required />
+  <label for="name" class="form__label">To:</label>
+</div>
+
+<div class="form__group field">
+  <input type="input" class="form__field" placeholder="Name" name="name" id='name' required />
+  <label for="name" class="form__label">Subject:</label>
+</div>
+<br>
+<div class="form__group field">
+ 
+  <textarea name="" id="textarea" cols="30" rows="4" class="form__field" placeholder="Name" name="name" id='name' required></textarea>
+  <label for="name" class="form__label">Content:</label>
+</div>
+
+
+
+</body>
+</html>

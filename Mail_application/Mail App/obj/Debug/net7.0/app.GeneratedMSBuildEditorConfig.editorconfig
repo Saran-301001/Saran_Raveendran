@@ -1,0 +1,157 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = app
+build_property.RootNamespace = app
+build_property.ProjectDir = D:\mail\3-22-23\app\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\mail\3-22-23\app
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/mail/3-22-23/app/Views/CreateMail/Newmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlTWFpbFxOZXdtYWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/mail/3-22-23/app/Views/Home/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/mail/3-22-23/app/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/mail/3-22-23/app/Views/MailSend/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbFNlbmRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/mail/3-22-23/app/Views/Shared/EmployeeLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVtcGxveWVlTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/mail/3-22-23/app/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/mail/3-22-23/app/Views/Shared/HomeLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEhvbWVMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/mail/3-22-23/app/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/mail/3-22-23/app/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/mail/3-22-23/app/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/mail/3-22-23/app/Views/Admin/AdminUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5VcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-s24yju0rih
+
+[D:/mail/3-22-23/app/Views/Admin/CreateAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlQWNjb3VudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-3995z0rg74
+
+[D:/mail/3-22-23/app/Views/Admin/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-t6030tbtvv
+
+[D:/mail/3-22-23/app/Views/Admin/DeleteEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVsZXRlRW1wbG95ZWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-vflnghhwww
+
+[D:/mail/3-22-23/app/Views/Admin/Forgotpassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRm9yZ290cGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-jmbom5n7g9
+
+[D:/mail/3-22-23/app/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-pvyy1osm3p
+
+[D:/mail/3-22-23/app/Views/Admin/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-w1ehrfwclk
+
+[D:/mail/3-22-23/app/Views/Admin/Viewprofile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVmlld3Byb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-mgqc6rohym
+
+[D:/mail/3-22-23/app/Views/Chat/Chat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhdFxDaGF0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-yx8ya1nvik
+
+[D:/mail/3-22-23/app/Views/Chat/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-bgu2oce07k
+
+[D:/mail/3-22-23/app/Views/Employee/EmployeeUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRW1wbG95ZWVVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-kfgi0xqgkm
+
+[D:/mail/3-22-23/app/Views/Employee/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-3r0v2a90jb
+
+[D:/mail/3-22-23/app/Views/Employee/Viewprofile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcVmlld3Byb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-qtskbi4gqv
+
+[D:/mail/3-22-23/app/Views/Forgotpassword/Changepassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9yZ290cGFzc3dvcmRcQ2hhbmdlcGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-3y1fewlofo
+
+[D:/mail/3-22-23/app/Views/Forgotpassword/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9yZ290cGFzc3dvcmRcRm9yZ290UGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-saz3vpigzo
+
+[D:/mail/3-22-23/app/Views/Forgotpassword/Updatedpassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9yZ290cGFzc3dvcmRcVXBkYXRlZHBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-dfrozpy3v6
+
+[D:/mail/3-22-23/app/Views/Forgotpassword/Verification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9yZ290cGFzc3dvcmRcVmVyaWZpY2F0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-inbott7kui
+
+[D:/mail/3-22-23/app/Views/Home/Forgot.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGb3Jnb3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-02tyk5mcs9
+
+[D:/mail/3-22-23/app/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-hjijjck99x
+
+[D:/mail/3-22-23/app/Views/Home/Login_form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbl9mb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-f3euys2t39
+
+[D:/mail/3-22-23/app/Views/Home/Signin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaWduaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-bcexb2v7su
+
+[D:/mail/3-22-23/app/Views/Mail/Sentmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbFxTZW50bWFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-zo9e3pa0r9
+
+[D:/mail/3-22-23/app/Views/Resetpassword/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXRwYXNzd29yZFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-s7khk52lt2
+
+[D:/mail/3-22-23/app/Views/Resetpassword/Resetpin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXRwYXNzd29yZFxSZXNldHBpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-njtlzjbipd
+
+[D:/mail/3-22-23/app/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-uwi58k5n9p

@@ -1,0 +1,69 @@
+.from{
+    position: absolute;
+    width: 290px;
+    height: 40px;
+    border-radius: 7px;
+    justify-content: left;
+    left: 480px;
+    top: 150px;
+    /* margin-right: 200px; */
+}
+
+.From_text{
+    position: absolute;
+    justify-content: left;
+    left: 410px;
+    top: 155px;
+}
+
+.To{
+    width: 290px;
+    height: 40px;
+    border-radius: 7px;
+    position: absolute;
+    justify-content: left;
+    left: 480px;
+    top: 250px;
+}
+
+.to_text{
+    position: absolute;
+    justify-content: left;
+    left: 410px;
+    top: 255px;
+}
+
+.subject{
+    width: 290px;
+    height: 40px;
+    border-radius: 7px;
+    position: absolute;
+    justify-content: left;
+    left: 480px;
+    top: 350px;
+}
+
+.subject_text{
+    position: absolute;
+    justify-content: left;
+    left: 400px;
+    top: 355px;
+}
+
+.Content{
+    width: 290px;
+    /* height: 40px; */
+    border-radius: 7px;
+    position: absolute;
+    justify-content: left;
+    left: 480px;
+    top: 450px;
+}
+
+.Content_text{
+    position: absolute;
+    justify-content: left;
+    left: 390px;
+    top: 485px;
+}
+

@@ -1,0 +1,99 @@
+@{
+    Layout = "../Shared/HomeLayout";
+}
+@model APP.Models.UserInput;
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/CreateAccount.cshtml.css" asp-append-version="true" />
+    <title>Document</title>
+</head>
+
+<body style="background: rgb(153,16,180);
+background: linear-gradient(320deg, rgba(153,16,180,1) 0%, rgba(246,237,242,1) 0%, rgba(183,103,224,1) 100%);">
+    <form action="" method="Post">
+        <div class="row" style="font-family: 'Poppins';">
+            <div class="col-md-3 border-right">
+
+                <div class="profile-pic">
+                    <label class="-label" for="file">
+                        <span class="glyphicon glyphicon-camera"></span>
+                        <span>Change Image</span>
+                    </label>
+                    <input id="file" type="file" onchange="loadFile(event)" />
+                    <img src="../../img/User.png" id="output" width="200" />
+                </div>
+            </div>
+            <div class="col-md-5 border-right">
+                <div class="p-3 py-5">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h4 class="text-right">Profile Settings</h4>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col-md-6"><label class="labels">Name</label><input type="text" class="form-control"
+                                placeholder="first name" asp-for="UserName" value=""></div>
+                        <div class="col-md-6"><label class="labels">Surname</label><input type="text"
+                                class="form-control" value="" placeholder="surname" asp-for="SurName"></div>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col-md-12"><label class="labels">Mobile Number</label><input type="Number"
+                                class="form-control" placeholder="enter phone number" asp-for="MobileNumber" value="">
+                        </div>
+                        <div class="col-md-12"><label class="labels">Personal Email</label><input type="email"
+                                class="form-control" placeholder="Email" asp-for="PersonalEmail" value=""></div>
+                        <div class="col-md-12"><label class="labels">Company Email</label><input type="email"
+                                class="form-control" placeholder="Email" asp-for="Email" value=""></div>
+                        <div class="col-md-6"><label class="labels">Role</label><input type="text" class="form-control"
+                                placeholder="Role" asp-for="Role" value=""></div>
+                        <div class="col-md-6"><label class="labels">Employee ID</label><input type="Number"
+                                class="form-control" placeholder="Role" asp-for="EmployeeID" value=""></div>
+                        
+                        @* <div class="mt-4 text-center col-md-6"><a class="btn btn-primary profile-button" asp-action="generatepassword" asp-controller="admin" 
+                                style="background-color:rgb(193, 9, 199) ;" type="button">Generate Password</a>
+                        </div>
+                        <div class="col-md-6"><label class="labels">Password</label><input type="password"
+                                class="form-control" placeholder="Password" asp-for="Password" ></div>
+                        <div class="col-md-12"><label class="labels">Confirm Password</label><input type="Password"
+                                class="form-control" placeholder="Confirm Password" asp-for="Confirmpassword" value="">
+                        </div> *@
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-3 py-5">
+                    <div class="d-flex justify-content-between align-items-center experience">
+                        <span>EditExperience</span>
+                    </div>
+                    <br>
+
+                    <div class="col-md-12"><label class="labels">Project</label><input type="text" class="form-control"
+                            placeholder="experience" asp-for="Project" value=""></div> <br>
+                    <div class="col-md-12"><label class="labels">Role in Project</label><input type="text"
+                            class="form-control" placeholder="additional details" asp-for="Role_Project" value=""></div>
+                </div>
+            </div>
+            <div class="mt-0 text-center"><button class="btn btn-primary profile-button"
+                    style="background-color:rgb(193, 9, 199) ;" type="submit">Save Profile</button></div>
+        </div>
+
+    </form>
+
+
+
+
+    <script>
+        var loadFile = function (event) {
+            var image = document.getElementById("output");
+            image.src = URL.createObjectURL(event.target.files[0]);
+        };
+
+    </script>
+</body>
+
+</html>

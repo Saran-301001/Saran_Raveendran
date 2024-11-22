@@ -1,0 +1,79 @@
+.container{
+	display: flex;
+	flex-flow: column;
+	height: 100%;
+	align-items: space-around;
+	justify-content: center;
+}
+
+.userInput{
+	display: flex;
+	justify-content: center;
+}
+
+input{
+	margin: 10px;
+	height: 35px;
+	width: 65px;
+	border: none;
+	border-radius: 5px;
+	text-align: center;
+	font-family: arimo;
+	font-size: 1.2rem;
+	background: #eef2f3;
+
+}
+
+h1{
+	text-align: center;
+	font-family: arimo;
+	color: honeydew;
+}
+
+
+button{
+	width: 150px;
+	height: 40px;
+	margin: 25px auto 0px auto;
+	font-family: arimo;
+	font-size: 1.1rem;
+	border: none;
+	border-radius: 5px;
+	letter-spacing: 2px;
+	cursor: pointer;
+	background-color: #f524f8;
+}
+
+#exampleInputPassword1{
+    width: 200px;
+    background-color: #fa93fc;
+}
+
+#username{
+    width: 200px;
+    background-color: #fa93fc;
+}
+
+#First{
+    background-color: #fa93fc; 
+}
+
+#sec{
+    background-color: #fa93fc;
+}
+
+#third{
+    background-color: #fa93fc;
+}
+
+#fourth{
+    background-color: #fa93fc;
+}
+
+#fifth{
+    background-color: #fa93fc;
+}
+
+.userInput{
+    padding-right: 690px;
+}

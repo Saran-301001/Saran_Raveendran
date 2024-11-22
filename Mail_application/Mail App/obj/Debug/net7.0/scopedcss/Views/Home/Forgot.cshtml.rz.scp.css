@@ -1,0 +1,79 @@
+.container[b-02tyk5mcs9]{
+	display: flex;
+	flex-flow: column;
+	height: 100%;
+	align-items: space-around;
+	justify-content: center;
+}
+
+.userInput[b-02tyk5mcs9]{
+	display: flex;
+	justify-content: center;
+}
+
+input[b-02tyk5mcs9]{
+	margin: 10px;
+	height: 35px;
+	width: 65px;
+	border: none;
+	border-radius: 5px;
+	text-align: center;
+	font-family: arimo;
+	font-size: 1.2rem;
+	background: #eef2f3;
+
+}
+
+h1[b-02tyk5mcs9]{
+	text-align: center;
+	font-family: arimo;
+	color: honeydew;
+}
+
+
+button[b-02tyk5mcs9]{
+	width: 150px;
+	height: 40px;
+	margin: 25px auto 0px auto;
+	font-family: arimo;
+	font-size: 1.1rem;
+	border: none;
+	border-radius: 5px;
+	letter-spacing: 2px;
+	cursor: pointer;
+	background-color: #f524f8;
+}
+
+#exampleInputPassword1[b-02tyk5mcs9]{
+    width: 200px;
+    background-color: #fa93fc;
+}
+
+#username[b-02tyk5mcs9]{
+    width: 200px;
+    background-color: #fa93fc;
+}
+
+#First[b-02tyk5mcs9]{
+    background-color: #fa93fc; 
+}
+
+#sec[b-02tyk5mcs9]{
+    background-color: #fa93fc;
+}
+
+#third[b-02tyk5mcs9]{
+    background-color: #fa93fc;
+}
+
+#fourth[b-02tyk5mcs9]{
+    background-color: #fa93fc;
+}
+
+#fifth[b-02tyk5mcs9]{
+    background-color: #fa93fc;
+}
+
+.userInput[b-02tyk5mcs9]{
+    padding-right: 690px;
+}

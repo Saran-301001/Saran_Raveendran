@@ -1,0 +1,38 @@
+body[b-bgu2oce07k]{
+    background: rgb(153,16,180);
+    background: linear-gradient(320deg, rgba(153,16,180,1) 0%, rgba(226,226,226,1) 0%, rgba(247,155,239,1) 100%);background-repeat: no-repeat;
+}
+
+
+.button[b-bgu2oce07k]{
+    background-color: rgb(159, 73, 240);
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    border-color:rgb(159, 73, 240);
+    font-family: 'Poppins';
+}
+
+.Deletebutton[b-bgu2oce07k]{
+    background-color: rgb(97, 236, 143);
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    border-color:rgb(97, 236, 143);
+    font-family: 'Poppins';
+}
+
+h1[b-bgu2oce07k]{
+    font-family: 'Poppins';
+}
+
+.btn[b-bgu2oce07k]{
+    position: absolute;
+    width: 180px;
+    left: 70%;
+    top: 23%;
+    /* padding-left: 50%;
+    width: 10px;
+    text-align: center;
+    padding-top: 20%; */
+}

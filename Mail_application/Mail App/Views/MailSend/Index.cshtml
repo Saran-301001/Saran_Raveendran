@@ -1,0 +1,335 @@
+@model APP.Models.EmailModel
+
+@{
+    Layout = null;
+}
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Send Mail</title>
+
+    <style type="text/css">
+        body {
+            font-family: Arial;
+            font-size: 10pt;
+        }
+
+        table th,
+        table td {
+            padding: 5px;
+        }
+
+        .body {
+            width: 600px;
+            height: 35px;
+            border-radius: 8px;
+            justify-content: center;
+            margin-left: 500px;
+            margin-top: 160px;
+            position: absolute;
+            font-family: 'Poppins';
+            color: rgb(0, 0, 0);
+            background-color: rgb(247, 231, 240);
+            border-color: #9d05e4;
+            border-width: 1.5px;
+        }
+
+        .to {
+            width: 600px;
+            height: 35px;
+            border-radius: 8px;
+            justify-content: center;
+            margin-left: 500px;
+            margin-top: 50px;
+            position: absolute;
+            font-family: 'Poppins';
+            color: rgb(0, 0, 0);
+            background-color: rgb(247, 231, 240);
+            border-color: #9d05e4;
+            border-width: 1.5px;
+        }
+
+        .Subject {
+            width: 300px;
+            height: 80px;
+            border-radius: 8px;
+            justify-content: center;
+            margin-left: 500px;
+            margin-top: 80px;
+            position: absolute;
+            font-family: 'Poppins';
+            color: rgb(0, 0, 0);
+            background-color: rgb(247, 231, 240);
+            border-color: #9d05e4;
+            border-width: 1.5px;
+        }
+
+        .mail {
+            width: 300px;
+            height: 35px;
+            border-radius: 8px;
+            justify-content: center;
+            margin-left: 500px;
+            margin-top: 250px;
+            position: absolute;
+            font-family: 'Poppins';
+            color: rgb(0, 0, 0);
+            background-color: rgb(247, 231, 240);
+            border-color: #9d05e4;
+            border-width: 1.5px;
+        }
+
+         #dropfile{
+            justify-content: center;
+            margin-left: 500px;
+            margin-top: 200px;
+            position: absolute;
+        }
+
+        .password{
+            width: 300px;
+            height: 35px;
+            border-radius: 8px;
+            justify-content: center;
+            margin-left: 500px;
+            margin-top: 280px;
+            position: absolute;
+            font-family: 'Poppins';
+            color: rgb(0, 0, 0);
+            background-color: rgb(247, 231, 240);
+            border-color: #9d05e4;
+            border-width: 1.5px;
+        }
+
+                      
+        .To_text{
+            font-family: 'Poppins';
+            font-weight: bolder;
+            margin-left: 480px;
+            position: absolute;
+            margin-top: 55px;
+        }
+
+        .Subject_text{
+            font-family: 'Poppins';
+            font-weight: bolder;
+            margin-left: 440px;
+            position: absolute;
+            margin-top: 100px;
+        }
+
+        .Body_text{
+            font-family: 'Poppins';
+            font-weight: bolder;
+            margin-left: 460px;
+            position: absolute;
+            margin-top: 165px;
+        }
+
+        .mail_text{
+            font-family: 'Poppins';
+            font-weight: bolder;
+            margin-left: 450px;
+            position: absolute;
+            margin-top: 257px;
+        }
+
+        .password_text{
+           font-family: 'Poppins';
+            font-weight: bolder;
+            margin-left: 420px;
+            position: absolute;
+            margin-top: 285px; 
+        }
+
+        
+        .button{
+            width: 100px;
+            height: 30px;
+            border-radius: 8px;
+            border-color: #9d05e4;
+            background-color: #deb2f3;
+            font-family: 'Poppins';
+            font-weight: bolder;
+            margin-left: 600px;
+            margin-top: 350px;
+        }
+
+
+        @*FileuploadBootstrap*@
+        .form {
+            background-color: #fff;
+            box-shadow: 0 10px 60px rgb(218, 229, 255);
+            border: 1px solid rgb(159, 159, 160);
+            border-radius: 20px;
+            padding: 2rem .7rem .7rem .7rem;
+            text-align: center;
+            font-size: 1.125rem;
+            max-width: 320px;
+        }
+
+        .form-title {
+            color: #000000;
+            font-size: 1.8rem;
+            font-weight: 500;
+        }
+
+        .form-paragraph {
+            margin-top: 10px;
+            font-size: 0.9375rem;
+            color: rgb(105, 105, 105);
+        }
+
+        .drop-container {
+            background-color: #fff;
+            position: relative;
+            display: flex;
+            gap: 10px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            margin-top: 2.1875rem;
+            border-radius: 10px;
+            border: 2px dashed #9d05e4;
+            color: #444;
+            cursor: pointer;
+            transition: background .2s ease-in-out, border .2s ease-in-out;
+        }
+
+        .drop-container:hover {
+            background: rgba(225, 0, 255, 0.164);
+            border-color: rgba(17, 17, 17, 0.616);
+        }
+
+        .drop-container:hover .drop-title {
+            color: #222;
+        }
+
+        .drop-title {
+            color: #444;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            transition: color .2s ease-in-out;
+        }
+
+        #file-input {
+            width: 350px;
+            max-width: 100%;
+            color: #444;
+            padding: 2px;
+            background: #fff;
+            border-radius: 10px;
+            border: 1px solid rgba(8, 8, 8, 0.288);
+        }
+
+        #file-input::file-selector-button {
+            margin-right: 20px;
+            border: none;
+            background: #9d05e4 ;
+            padding: 10px 20px;
+            border-radius: 10px;
+            color: #fff;
+            cursor: pointer;
+            transition: background .2s ease-in-out;
+        }
+
+        #file-input::file-selector-button:hover {
+            background: #9d05e4;
+        }
+
+       
+    </style>
+</head>
+
+<body>
+
+    <div>
+        @* @using (Html.BeginForm("Index","MailSend",FormMethod.Post, new {enctype = "multipart/form-data"})) *@
+        @using (Html.BeginForm("Index", "MailSend", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td style="widht:80px">
+                        <p class="To_text">To:</p>
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(Model => Model.To, new { row="3",cols="20", @class="to" })
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p class="Subject_text">Subject:</p>
+                    </td>
+
+                    <td>
+                        @Html.TextAreaFor(Model => Model.Subject, new { row="3",cols="20", @class="Subject" })
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="top">
+                        <p class="Body_text">Body:</p>
+                    </td>
+                    <td>
+                        @Html.TextAreaFor(Model => Model.Body, new { row="3",cols="20", @class="Body" })
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+
+                           
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(Model => Model.Attachment, new { type = "file", @class="drop-container", @id="dropfile" })
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p class="mail_text">Gmail:</p>
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(Model => Model.Email, new {  @class="mail" })
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p class="password_text">Password:</p>
+                    </td>
+                    <td>
+
+
+                        @Html.PasswordFor(m => m.Password, new {  @class="password" })
+                    </td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Send"class="button" />
+                    </td>
+                </tr>
+            </table>
+
+            <br />
+
+            <span style="color: green;">@ViewBag.Message</span>
+        }
+    </div>
+
+
+</body>
+
+</html>
